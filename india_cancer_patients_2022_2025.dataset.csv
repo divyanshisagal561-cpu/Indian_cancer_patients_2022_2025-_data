@@ -1,0 +1,1002 @@
+patient_id,age,gender,city,hospital_name,cancer_type,stage,treatment_type,survival_months,status
+1,82,Female,New Delhi,Rajiv Gandhi Cancer Institute,Stomach Cancer,Stage III,Palliative Care,3.5,Deceased
+2,45,Female,Kolkata,Tata Medical Center,Cervical Cancer,Stage IV,Palliative Care,34,Alive
+3,47,Male,Chandigarh,PGIMER,Oral Cancer,Stage III,Targeted Therapy,33,Alive
+4,1,Female,New Delhi,AIIMS,Leukemia,Stage II,Palliative Care,27.3,Alive
+5,52,Female,Mumbai,Tata Memorial Hospital,Cervical Cancer,Stage IV,Palliative Care,24,Deceased
+6,43,Female,Kolkata,Tata Medical Center,Lung Cancer,Stage IV,Targeted Therapy,23.8,Deceased
+7,42,Male,Hyderabad,Basavatarakam Indo American Cancer Hospital,Colorectal Cancer,Stage III,Surgery + Chemotherapy,42.9,Deceased
+8,77,Male,Kolkata,Tata Medical Center,Prostate Cancer,Stage III,Targeted Therapy,5.3,Deceased
+9,65,Female,Chandigarh,PGIMER,Breast Cancer,Stage II,Radiation,30.3,Alive
+10,62,Male,Kolkata,Tata Medical Center,Prostate Cancer,Stage IV,Palliative Care,12.3,Deceased
+11,22,Male,Hyderabad,Basavatarakam Indo American Cancer Hospital,Leukemia,Stage II,Surgery,15.2,Deceased
+12,63,Male,Ahmedabad,Gujarat Cancer Research Institute,Colorectal Cancer,Stage IV,Palliative Care,21.9,Deceased
+13,53,Female,Chandigarh,PGIMER,Cervical Cancer,Stage IV,Targeted Therapy,32.6,Deceased
+14,62,Female,Kolkata,Tata Medical Center,Lung Cancer,Stage III,Palliative Care,18.7,Deceased
+15,44,Female,New Delhi,AIIMS,Breast Cancer,Stage IV,Palliative Care,15.6,Deceased
+16,77,Female,New Delhi,AIIMS,Stomach Cancer,Stage III,Targeted Therapy,20.8,Deceased
+17,40,Female,New Delhi,Rajiv Gandhi Cancer Institute,Breast Cancer,Stage IV,Palliative Care,15.7,Deceased
+18,58,Female,Chennai,Adyar Cancer Institute,Cervical Cancer,Stage III,Targeted Therapy,44.4,Alive
+19,52,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Ovarian Cancer,Stage III,Radiation,46,Alive
+20,40,Female,Chandigarh,PGIMER,Breast Cancer,Stage III,Chemotherapy,2.8,Deceased
+21,35,Male,New Delhi,AIIMS,Colorectal Cancer,Stage II,Chemo + Radiation,11.6,Deceased
+22,46,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Cervical Cancer,Stage II,Radiation,30.2,Alive
+23,46,Male,Kolkata,Tata Medical Center,Oral Cancer,Stage III,Targeted Therapy,12.4,Alive
+24,57,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Colorectal Cancer,Stage III,Chemotherapy,25,Deceased
+25,33,Male,Chennai,Adyar Cancer Institute,Oral Cancer,Stage I,Surgery,42.7,Alive
+26,61,Male,Thiruvananthapuram,Regional Cancer Centre,Prostate Cancer,Stage I,Surgery,31,Alive
+27,44,Female,New Delhi,AIIMS,Colorectal Cancer,Stage II,Palliative Care,16.3,Alive
+28,56,Female,Ahmedabad,Gujarat Cancer Research Institute,Cervical Cancer,Stage III,Targeted Therapy,4.9,Deceased
+29,44,Female,Mumbai,Tata Memorial Hospital,Breast Cancer,Stage I,Surgery,51.3,Alive
+30,54,Male,Kolkata,Tata Medical Center,Lung Cancer,Stage II,Surgery + Chemotherapy,26.2,Deceased
+31,44,Female,Chennai,Adyar Cancer Institute,Leukemia,Stage II,Palliative Care,32.9,Deceased
+32,72,Male,Thiruvananthapuram,Regional Cancer Centre,Prostate Cancer,Stage III,Chemotherapy,20.5,Deceased
+33,56,Female,Ahmedabad,Gujarat Cancer Research Institute,Breast Cancer,Stage III,Surgery + Chemotherapy,8.6,Alive
+34,88,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Stomach Cancer,Stage I,Radiation,13.3,Alive
+35,63,Male,New Delhi,AIIMS,Lung Cancer,Stage II,Chemo + Radiation,3.9,Deceased
+36,36,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Breast Cancer,Stage IV,Palliative Care,6.4,Deceased
+37,33,Female,Chandigarh,PGIMER,Breast Cancer,Stage III,Targeted Therapy,24,Deceased
+38,50,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Breast Cancer,Stage IV,Palliative Care,48.1,Deceased
+39,65,Female,Chennai,Adyar Cancer Institute,Ovarian Cancer,Stage II,Surgery + Chemotherapy,27.9,Alive
+40,47,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Breast Cancer,Stage I,Radiation,7.1,Deceased
+41,63,Female,Chandigarh,PGIMER,Breast Cancer,Stage II,Surgery + Chemotherapy,12.4,Alive
+42,73,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Colorectal Cancer,Stage IV,Palliative Care,38,Deceased
+43,52,Female,Chandigarh,PGIMER,Breast Cancer,Stage III,Radiation,4.5,Deceased
+44,42,Male,Thiruvananthapuram,Regional Cancer Centre,Stomach Cancer,Stage IV,Palliative Care,24.4,Deceased
+45,64,Male,Hyderabad,Basavatarakam Indo American Cancer Hospital,Colorectal Cancer,Stage II,Palliative Care,22.3,Deceased
+46,50,Female,Chandigarh,PGIMER,Oral Cancer,Stage II,Chemotherapy,24.2,Deceased
+47,64,Female,Ahmedabad,Gujarat Cancer Research Institute,Colorectal Cancer,Stage III,Palliative Care,8.3,Deceased
+48,66,Male,New Delhi,Rajiv Gandhi Cancer Institute,Prostate Cancer,Stage III,Targeted Therapy,30.7,Deceased
+49,43,Female,Thiruvananthapuram,Regional Cancer Centre,Leukemia,Stage III,Surgery + Chemotherapy,9.4,Deceased
+50,42,Male,Chandigarh,PGIMER,Oral Cancer,Stage II,Surgery + Chemotherapy,13.1,Deceased
+51,73,Female,Chennai,Adyar Cancer Institute,Colorectal Cancer,Stage III,Chemo + Radiation,12.4,Deceased
+52,42,Female,New Delhi,AIIMS,Cervical Cancer,Stage II,Chemotherapy,9.6,Alive
+53,53,Female,Ahmedabad,Gujarat Cancer Research Institute,Oral Cancer,Stage II,Radiation,22,Deceased
+54,57,Female,New Delhi,Rajiv Gandhi Cancer Institute,Breast Cancer,Stage III,Chemo + Radiation,49.6,Alive
+55,51,Female,New Delhi,AIIMS,Cervical Cancer,Stage II,Surgery + Chemotherapy,10.8,Alive
+56,50,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Breast Cancer,Stage IV,Chemotherapy,3.6,Deceased
+57,69,Female,Mumbai,Tata Memorial Hospital,Stomach Cancer,Stage I,Surgery,6.3,Deceased
+58,69,Male,Mumbai,Tata Memorial Hospital,Stomach Cancer,Stage III,Chemo + Radiation,17.3,Deceased
+59,65,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Stomach Cancer,Stage III,Chemotherapy,33.1,Deceased
+60,69,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Lung Cancer,Stage I,Surgery,17.8,Deceased
+61,71,Male,New Delhi,Rajiv Gandhi Cancer Institute,Oral Cancer,Stage III,Targeted Therapy,18,Deceased
+62,44,Male,Chandigarh,PGIMER,Oral Cancer,Stage IV,Chemotherapy,13.8,Deceased
+63,66,Male,New Delhi,AIIMS,Colorectal Cancer,Stage IV,Targeted Therapy,33.4,Deceased
+64,49,Female,Thiruvananthapuram,Regional Cancer Centre,Breast Cancer,Stage II,Palliative Care,32.7,Alive
+65,48,Female,Kolkata,Tata Medical Center,Breast Cancer,Stage III,Chemotherapy,15,Deceased
+66,61,Female,New Delhi,AIIMS,Cervical Cancer,Stage II,Targeted Therapy,17.9,Deceased
+67,54,Male,Chennai,Adyar Cancer Institute,Oral Cancer,Stage III,Chemo + Radiation,12.1,Deceased
+68,60,Female,New Delhi,Rajiv Gandhi Cancer Institute,Cervical Cancer,Stage III,Chemotherapy,3.6,Deceased
+69,38,Male,Mumbai,Tata Memorial Hospital,Oral Cancer,Stage III,Surgery + Chemotherapy,9.6,Alive
+70,71,Male,Mumbai,Tata Memorial Hospital,Oral Cancer,Stage II,Targeted Therapy,28.2,Deceased
+71,65,Female,Thiruvananthapuram,Regional Cancer Centre,Ovarian Cancer,Stage II,Surgery + Chemotherapy,42.1,Alive
+72,52,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Lung Cancer,Stage IV,Palliative Care,11,Deceased
+73,51,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Lung Cancer,Stage IV,Palliative Care,27.9,Deceased
+74,52,Female,Thiruvananthapuram,Regional Cancer Centre,Cervical Cancer,Stage I,Surgery,45.5,Alive
+75,65,Male,New Delhi,Rajiv Gandhi Cancer Institute,Lung Cancer,Stage III,Chemotherapy,13.9,Deceased
+76,30,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Breast Cancer,Stage III,Chemotherapy,10.9,Deceased
+77,35,Male,Chennai,Adyar Cancer Institute,Stomach Cancer,Stage III,Chemo + Radiation,29.6,Deceased
+78,64,Female,Ahmedabad,Gujarat Cancer Research Institute,Lung Cancer,Stage I,Surgery,6.4,Deceased
+79,45,Female,New Delhi,Rajiv Gandhi Cancer Institute,Breast Cancer,Stage II,Surgery,6.8,Alive
+80,39,Male,Kolkata,Tata Medical Center,Oral Cancer,Stage III,Targeted Therapy,21.6,Deceased
+81,60,Female,Ahmedabad,Gujarat Cancer Research Institute,Breast Cancer,Stage I,Surgery,14.5,Deceased
+82,37,Male,Chennai,Adyar Cancer Institute,Colorectal Cancer,Stage IV,Palliative Care,5.8,Deceased
+83,35,Male,Thiruvananthapuram,Regional Cancer Centre,Oral Cancer,Stage II,Targeted Therapy,40.3,Deceased
+84,50,Female,New Delhi,Rajiv Gandhi Cancer Institute,Breast Cancer,Stage I,Surgery,1.9,Deceased
+85,58,Female,Thiruvananthapuram,Regional Cancer Centre,Cervical Cancer,Stage III,Palliative Care,2.3,Deceased
+86,52,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Breast Cancer,Stage III,Surgery + Chemotherapy,16.5,Deceased
+87,56,Female,New Delhi,Rajiv Gandhi Cancer Institute,Cervical Cancer,Stage IV,Chemotherapy,7.8,Deceased
+88,49,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Breast Cancer,Stage II,Chemo + Radiation,10.4,Deceased
+89,62,Male,New Delhi,AIIMS,Oral Cancer,Stage III,Chemotherapy,14.9,Deceased
+90,47,Male,Hyderabad,Basavatarakam Indo American Cancer Hospital,Stomach Cancer,Stage II,Chemotherapy,5.7,Deceased
+91,41,Female,Mumbai,Tata Memorial Hospital,Cervical Cancer,Stage I,Surgery,12.7,Deceased
+92,55,Male,Chandigarh,PGIMER,Prostate Cancer,Stage IV,Palliative Care,7.2,Deceased
+93,47,Female,New Delhi,Rajiv Gandhi Cancer Institute,Breast Cancer,Stage IV,Palliative Care,10.5,Deceased
+94,54,Female,Mumbai,Tata Memorial Hospital,Ovarian Cancer,Stage IV,Targeted Therapy,21.2,Alive
+95,31,Male,Kolkata,Tata Medical Center,Leukemia,Stage III,Surgery + Chemotherapy,3,Deceased
+96,47,Female,Ahmedabad,Gujarat Cancer Research Institute,Cervical Cancer,Stage IV,Chemotherapy,12,Deceased
+97,31,Male,New Delhi,AIIMS,Leukemia,Stage IV,Palliative Care,50.3,Alive
+98,60,Female,Thiruvananthapuram,Regional Cancer Centre,Breast Cancer,Stage IV,Palliative Care,39.4,Deceased
+99,62,Male,New Delhi,Rajiv Gandhi Cancer Institute,Stomach Cancer,Stage II,Chemotherapy,6.5,Deceased
+100,58,Female,Kolkata,Tata Medical Center,Lung Cancer,Stage II,Surgery + Chemotherapy,29.2,Deceased
+101,55,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Ovarian Cancer,Stage III,Chemo + Radiation,7.6,Deceased
+102,51,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Breast Cancer,Stage II,Palliative Care,12.2,Alive
+103,52,Female,New Delhi,Rajiv Gandhi Cancer Institute,Breast Cancer,Stage II,Chemotherapy,34.5,Alive
+104,66,Male,Hyderabad,Basavatarakam Indo American Cancer Hospital,Prostate Cancer,Stage I,Surgery,16.2,Alive
+105,74,Female,Chennai,Adyar Cancer Institute,Breast Cancer,Stage III,Chemotherapy,37.1,Deceased
+106,59,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Colorectal Cancer,Stage III,Surgery,2.1,Deceased
+107,41,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Cervical Cancer,Stage I,Surgery,11.1,Deceased
+108,28,Male,Thiruvananthapuram,Regional Cancer Centre,Leukemia,Stage III,Chemotherapy,3.4,Deceased
+109,56,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Breast Cancer,Stage III,Chemotherapy,16.4,Deceased
+110,42,Female,New Delhi,AIIMS,Oral Cancer,Stage I,Surgery,43.7,Alive
+111,55,Female,New Delhi,AIIMS,Breast Cancer,Stage II,Targeted Therapy,15.1,Deceased
+112,49,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Stomach Cancer,Stage III,Chemo + Radiation,31.4,Alive
+113,58,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Cervical Cancer,Stage IV,Palliative Care,5.7,Deceased
+114,47,Female,Chandigarh,PGIMER,Breast Cancer,Stage II,Chemotherapy,19.6,Alive
+115,65,Female,New Delhi,AIIMS,Breast Cancer,Stage IV,Targeted Therapy,2.9,Deceased
+116,34,Female,New Delhi,AIIMS,Breast Cancer,Stage II,Surgery,36,Alive
+117,55,Female,New Delhi,Rajiv Gandhi Cancer Institute,Cervical Cancer,Stage IV,Targeted Therapy,10.1,Deceased
+118,61,Female,New Delhi,AIIMS,Cervical Cancer,Stage I,Surgery,50.3,Alive
+119,51,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Breast Cancer,Stage II,Radiation,9.7,Deceased
+120,56,Female,Chandigarh,PGIMER,Breast Cancer,Stage II,Chemo + Radiation,16.2,Alive
+121,52,Female,Mumbai,Tata Memorial Hospital,Breast Cancer,Stage III,Surgery + Chemotherapy,17.7,Deceased
+122,53,Male,Kolkata,Tata Medical Center,Lung Cancer,Stage IV,Palliative Care,6.3,Deceased
+123,49,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Oral Cancer,Stage II,Radiation,4.1,Deceased
+124,42,Female,Kolkata,Tata Medical Center,Breast Cancer,Stage IV,Palliative Care,9.9,Deceased
+125,81,Male,Chennai,Adyar Cancer Institute,Stomach Cancer,Stage III,Chemo + Radiation,17.2,Deceased
+126,53,Male,Ahmedabad,Gujarat Cancer Research Institute,Oral Cancer,Stage IV,Palliative Care,20.6,Deceased
+127,64,Male,Chandigarh,PGIMER,Prostate Cancer,Stage III,Surgery + Chemotherapy,26.8,Alive
+128,54,Female,Thiruvananthapuram,Regional Cancer Centre,Breast Cancer,Stage II,Radiation,43.7,Alive
+129,55,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Lung Cancer,Stage III,Radiation,1.6,Deceased
+130,41,Male,Hyderabad,Basavatarakam Indo American Cancer Hospital,Oral Cancer,Stage III,Surgery,20.6,Deceased
+131,72,Male,Hyderabad,Basavatarakam Indo American Cancer Hospital,Oral Cancer,Stage II,Chemotherapy,40.1,Alive
+132,64,Female,New Delhi,AIIMS,Cervical Cancer,Stage I,Surgery,1.5,Deceased
+133,77,Female,Mumbai,Tata Memorial Hospital,Oral Cancer,Stage I,Radiation,32.8,Alive
+134,57,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Lung Cancer,Stage II,Surgery,1.1,Deceased
+135,64,Male,Mumbai,Tata Memorial Hospital,Oral Cancer,Stage III,Radiation,26.4,Alive
+136,49,Female,Kolkata,Tata Medical Center,Oral Cancer,Stage II,Surgery,1.7,Deceased
+137,35,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Breast Cancer,Stage II,Palliative Care,43.1,Alive
+138,48,Female,New Delhi,AIIMS,Oral Cancer,Stage I,Surgery,7.3,Deceased
+139,72,Male,Chandigarh,PGIMER,Colorectal Cancer,Stage III,Surgery,9.1,Deceased
+140,48,Female,Mumbai,Tata Memorial Hospital,Breast Cancer,Stage III,Surgery,8.9,Alive
+141,42,Female,Kolkata,Tata Medical Center,Ovarian Cancer,Stage II,Palliative Care,12.6,Deceased
+142,70,Female,Kolkata,Tata Medical Center,Breast Cancer,Stage IV,Chemotherapy,32.6,Deceased
+143,58,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Colorectal Cancer,Stage III,Palliative Care,4.9,Deceased
+144,53,Female,Kolkata,Tata Medical Center,Cervical Cancer,Stage IV,Palliative Care,25.3,Deceased
+145,51,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Colorectal Cancer,Stage I,Surgery,48.8,Alive
+146,54,Female,Kolkata,Tata Medical Center,Cervical Cancer,Stage I,Surgery,3.2,Deceased
+147,75,Female,Mumbai,Tata Memorial Hospital,Cervical Cancer,Stage IV,Targeted Therapy,49,Deceased
+148,36,Female,Thiruvananthapuram,Regional Cancer Centre,Cervical Cancer,Stage III,Surgery,20.5,Deceased
+149,41,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Breast Cancer,Stage IV,Palliative Care,46.1,Deceased
+150,54,Female,Chandigarh,PGIMER,Cervical Cancer,Stage II,Surgery,17.3,Alive
+151,53,Female,Chandigarh,PGIMER,Breast Cancer,Stage III,Targeted Therapy,14.6,Deceased
+152,55,Male,Thiruvananthapuram,Regional Cancer Centre,Colorectal Cancer,Stage II,Targeted Therapy,30.7,Deceased
+153,44,Female,New Delhi,AIIMS,Ovarian Cancer,Stage IV,Chemotherapy,7,Deceased
+154,42,Female,Chennai,Adyar Cancer Institute,Cervical Cancer,Stage III,Surgery,28.5,Alive
+155,68,Male,Hyderabad,Basavatarakam Indo American Cancer Hospital,Prostate Cancer,Stage II,Chemotherapy,11.4,Alive
+156,52,Female,Ahmedabad,Gujarat Cancer Research Institute,Cervical Cancer,Stage III,Chemo + Radiation,48.5,Alive
+157,62,Female,Thiruvananthapuram,Regional Cancer Centre,Ovarian Cancer,Stage IV,Palliative Care,7.1,Deceased
+158,56,Female,New Delhi,AIIMS,Cervical Cancer,Stage IV,Palliative Care,23.5,Deceased
+159,71,Female,Chennai,Adyar Cancer Institute,Ovarian Cancer,Stage IV,Palliative Care,13.6,Deceased
+160,52,Female,Chennai,Adyar Cancer Institute,Ovarian Cancer,Stage I,Surgery,4.3,Deceased
+161,52,Female,Chennai,Adyar Cancer Institute,Oral Cancer,Stage IV,Targeted Therapy,15.5,Deceased
+162,55,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Prostate Cancer,Stage IV,Palliative Care,30.8,Deceased
+163,34,Female,Chandigarh,PGIMER,Breast Cancer,Stage IV,Palliative Care,1.5,Deceased
+164,49,Female,New Delhi,AIIMS,Oral Cancer,Stage II,Palliative Care,4.2,Deceased
+165,43,Male,Thiruvananthapuram,Regional Cancer Centre,Prostate Cancer,Stage III,Palliative Care,14,Alive
+166,65,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Lung Cancer,Stage II,Palliative Care,4.1,Deceased
+167,55,Male,New Delhi,AIIMS,Colorectal Cancer,Stage III,Targeted Therapy,48.7,Alive
+168,53,Female,Kolkata,Tata Medical Center,Cervical Cancer,Stage I,Surgery,31.5,Alive
+169,49,Male,New Delhi,AIIMS,Oral Cancer,Stage II,Palliative Care,25.9,Alive
+170,75,Male,Chennai,Adyar Cancer Institute,Stomach Cancer,Stage III,Targeted Therapy,24.6,Alive
+171,42,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Oral Cancer,Stage I,Surgery,51.9,Alive
+172,41,Female,Ahmedabad,Gujarat Cancer Research Institute,Cervical Cancer,Stage II,Chemotherapy,16,Deceased
+173,65,Female,Ahmedabad,Gujarat Cancer Research Institute,Breast Cancer,Stage I,Surgery,22.8,Alive
+174,54,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Cervical Cancer,Stage III,Radiation,45.2,Alive
+175,49,Female,Thiruvananthapuram,Regional Cancer Centre,Cervical Cancer,Stage II,Surgery,41.8,Alive
+176,30,Female,Chennai,Adyar Cancer Institute,Cervical Cancer,Stage II,Surgery + Chemotherapy,31.3,Deceased
+177,68,Male,Mumbai,Tata Memorial Hospital,Lung Cancer,Stage I,Surgery,7.9,Deceased
+178,76,Female,New Delhi,Rajiv Gandhi Cancer Institute,Lung Cancer,Stage II,Palliative Care,2,Deceased
+179,64,Male,Hyderabad,Basavatarakam Indo American Cancer Hospital,Oral Cancer,Stage III,Chemotherapy,34.4,Alive
+180,75,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Stomach Cancer,Stage III,Chemo + Radiation,9,Deceased
+181,72,Male,New Delhi,Rajiv Gandhi Cancer Institute,Prostate Cancer,Stage I,Radiation,26.7,Deceased
+182,35,Male,Mumbai,Tata Memorial Hospital,Leukemia,Stage II,Surgery,8.1,Alive
+183,39,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Breast Cancer,Stage III,Targeted Therapy,24.3,Deceased
+184,55,Female,Chandigarh,PGIMER,Oral Cancer,Stage IV,Chemotherapy,2.8,Deceased
+185,49,Female,Ahmedabad,Gujarat Cancer Research Institute,Breast Cancer,Stage III,Chemo + Radiation,5.8,Alive
+186,68,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Lung Cancer,Stage III,Surgery + Chemotherapy,25.8,Deceased
+187,59,Female,Chandigarh,PGIMER,Lung Cancer,Stage III,Surgery + Chemotherapy,37.8,Deceased
+188,69,Female,Ahmedabad,Gujarat Cancer Research Institute,Cervical Cancer,Stage I,Surgery,7.3,Alive
+189,44,Female,Mumbai,Tata Memorial Hospital,Breast Cancer,Stage III,Radiation,42.9,Alive
+190,1,Male,Hyderabad,Basavatarakam Indo American Cancer Hospital,Leukemia,Stage II,Palliative Care,9.3,Deceased
+191,34,Male,Ahmedabad,Gujarat Cancer Research Institute,Oral Cancer,Stage I,Surgery,14.6,Alive
+192,49,Female,Kolkata,Tata Medical Center,Breast Cancer,Stage III,Palliative Care,10.5,Deceased
+193,48,Female,Ahmedabad,Gujarat Cancer Research Institute,Cervical Cancer,Stage IV,Palliative Care,19.4,Deceased
+194,68,Female,Mumbai,Tata Memorial Hospital,Colorectal Cancer,Stage III,Radiation,17.9,Alive
+195,35,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Breast Cancer,Stage IV,Palliative Care,16.4,Alive
+196,62,Female,Chennai,Adyar Cancer Institute,Breast Cancer,Stage IV,Chemotherapy,35.4,Alive
+197,52,Female,Thiruvananthapuram,Regional Cancer Centre,Cervical Cancer,Stage IV,Palliative Care,30.7,Deceased
+198,47,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Cervical Cancer,Stage IV,Palliative Care,27.1,Deceased
+199,59,Female,Mumbai,Tata Memorial Hospital,Stomach Cancer,Stage IV,Chemotherapy,8.5,Deceased
+200,64,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Breast Cancer,Stage II,Surgery,49.7,Alive
+201,64,Female,Thiruvananthapuram,Regional Cancer Centre,Stomach Cancer,Stage II,Chemo + Radiation,40.9,Deceased
+202,51,Female,New Delhi,Rajiv Gandhi Cancer Institute,Stomach Cancer,Stage I,Surgery,24.4,Alive
+203,58,Female,Ahmedabad,Gujarat Cancer Research Institute,Breast Cancer,Stage III,Surgery,19.1,Alive
+204,38,Female,New Delhi,Rajiv Gandhi Cancer Institute,Oral Cancer,Stage III,Palliative Care,8.2,Deceased
+205,54,Female,Mumbai,Tata Memorial Hospital,Breast Cancer,Stage III,Chemo + Radiation,8.5,Deceased
+206,67,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Stomach Cancer,Stage III,Radiation,25.5,Deceased
+207,54,Male,Mumbai,Tata Memorial Hospital,Oral Cancer,Stage IV,Targeted Therapy,7.5,Deceased
+208,47,Female,New Delhi,AIIMS,Cervical Cancer,Stage II,Chemotherapy,45.3,Alive
+209,67,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Breast Cancer,Stage IV,Chemotherapy,7.7,Deceased
+210,63,Female,Ahmedabad,Gujarat Cancer Research Institute,Oral Cancer,Stage II,Radiation,33,Deceased
+211,55,Male,Ahmedabad,Gujarat Cancer Research Institute,Colorectal Cancer,Stage IV,Chemotherapy,8.7,Deceased
+212,54,Male,Mumbai,Tata Memorial Hospital,Lung Cancer,Stage IV,Palliative Care,9.1,Deceased
+213,67,Male,Chandigarh,PGIMER,Prostate Cancer,Stage IV,Palliative Care,43.1,Deceased
+214,49,Female,Chandigarh,PGIMER,Cervical Cancer,Stage IV,Targeted Therapy,13.8,Deceased
+215,27,Female,New Delhi,Rajiv Gandhi Cancer Institute,Breast Cancer,Stage IV,Chemotherapy,10.6,Deceased
+216,62,Female,Mumbai,Tata Memorial Hospital,Stomach Cancer,Stage III,Chemo + Radiation,15.4,Deceased
+217,43,Female,Chandigarh,PGIMER,Lung Cancer,Stage II,Surgery + Chemotherapy,6.5,Deceased
+218,20,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Leukemia,Stage III,Targeted Therapy,52.4,Alive
+219,48,Female,Kolkata,Tata Medical Center,Cervical Cancer,Stage I,Surgery,40.8,Alive
+220,46,Male,Hyderabad,Basavatarakam Indo American Cancer Hospital,Lung Cancer,Stage III,Radiation,10.3,Deceased
+221,58,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Breast Cancer,Stage III,Palliative Care,9,Alive
+222,27,Female,Ahmedabad,Gujarat Cancer Research Institute,Oral Cancer,Stage II,Chemotherapy,36,Deceased
+223,52,Male,Hyderabad,Basavatarakam Indo American Cancer Hospital,Oral Cancer,Stage IV,Palliative Care,26.4,Alive
+224,48,Female,Ahmedabad,Gujarat Cancer Research Institute,Breast Cancer,Stage III,Surgery,35.7,Alive
+225,53,Female,New Delhi,Rajiv Gandhi Cancer Institute,Breast Cancer,Stage III,Chemo + Radiation,6.7,Deceased
+226,40,Female,Chennai,Adyar Cancer Institute,Breast Cancer,Stage III,Chemotherapy,16.1,Deceased
+227,57,Female,New Delhi,Rajiv Gandhi Cancer Institute,Breast Cancer,Stage IV,Palliative Care,8.5,Deceased
+228,86,Male,Chandigarh,PGIMER,Prostate Cancer,Stage II,Palliative Care,49.3,Alive
+229,40,Male,Kolkata,Tata Medical Center,Leukemia,Stage III,Targeted Therapy,13.1,Deceased
+230,49,Male,Hyderabad,Basavatarakam Indo American Cancer Hospital,Oral Cancer,Stage III,Chemotherapy,11.3,Deceased
+231,70,Female,Chandigarh,PGIMER,Breast Cancer,Stage II,Chemotherapy,36.9,Alive
+232,50,Female,Thiruvananthapuram,Regional Cancer Centre,Cervical Cancer,Stage II,Targeted Therapy,32.2,Deceased
+233,61,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Breast Cancer,Stage III,Surgery,24.2,Deceased
+234,70,Male,Hyderabad,Basavatarakam Indo American Cancer Hospital,Stomach Cancer,Stage II,Surgery + Chemotherapy,19.4,Deceased
+235,62,Female,Chandigarh,PGIMER,Oral Cancer,Stage III,Targeted Therapy,10.9,Deceased
+236,70,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Lung Cancer,Stage III,Radiation,16.9,Deceased
+237,49,Male,Hyderabad,Basavatarakam Indo American Cancer Hospital,Colorectal Cancer,Stage IV,Palliative Care,4.8,Deceased
+238,70,Male,Thiruvananthapuram,Regional Cancer Centre,Lung Cancer,Stage III,Radiation,14.6,Deceased
+239,50,Female,Chennai,Adyar Cancer Institute,Oral Cancer,Stage II,Surgery + Chemotherapy,9.3,Deceased
+240,60,Female,Chennai,Adyar Cancer Institute,Oral Cancer,Stage IV,Palliative Care,8.3,Deceased
+241,60,Male,Chennai,Adyar Cancer Institute,Oral Cancer,Stage I,Surgery,11.5,Deceased
+242,59,Male,Thiruvananthapuram,Regional Cancer Centre,Prostate Cancer,Stage III,Targeted Therapy,34.5,Deceased
+243,49,Male,Kolkata,Tata Medical Center,Colorectal Cancer,Stage IV,Palliative Care,10.6,Deceased
+244,46,Female,Chennai,Adyar Cancer Institute,Breast Cancer,Stage II,Targeted Therapy,9.1,Alive
+245,67,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Stomach Cancer,Stage III,Chemotherapy,9.1,Deceased
+246,50,Female,Kolkata,Tata Medical Center,Breast Cancer,Stage III,Radiation,43.9,Alive
+247,63,Male,New Delhi,Rajiv Gandhi Cancer Institute,Lung Cancer,Stage III,Surgery,5.7,Deceased
+248,33,Female,New Delhi,AIIMS,Breast Cancer,Stage I,Radiation,18.9,Alive
+249,54,Female,Kolkata,Tata Medical Center,Cervical Cancer,Stage IV,Targeted Therapy,15.3,Deceased
+250,66,Male,Chennai,Adyar Cancer Institute,Lung Cancer,Stage III,Chemotherapy,8.2,Deceased
+251,46,Male,Chennai,Adyar Cancer Institute,Colorectal Cancer,Stage III,Radiation,13.1,Deceased
+252,32,Female,Thiruvananthapuram,Regional Cancer Centre,Breast Cancer,Stage IV,Palliative Care,10.3,Deceased
+253,70,Male,Thiruvananthapuram,Regional Cancer Centre,Lung Cancer,Stage II,Palliative Care,22.2,Deceased
+254,60,Female,Thiruvananthapuram,Regional Cancer Centre,Lung Cancer,Stage II,Radiation,18.1,Deceased
+255,59,Male,Kolkata,Tata Medical Center,Lung Cancer,Stage I,Surgery,1.3,Deceased
+256,58,Female,Chandigarh,PGIMER,Cervical Cancer,Stage II,Radiation,1.4,Deceased
+257,72,Female,New Delhi,AIIMS,Cervical Cancer,Stage III,Surgery,27.4,Alive
+258,71,Male,Ahmedabad,Gujarat Cancer Research Institute,Prostate Cancer,Stage II,Chemotherapy,6.9,Deceased
+259,43,Female,New Delhi,Rajiv Gandhi Cancer Institute,Cervical Cancer,Stage III,Chemotherapy,4.7,Deceased
+260,48,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Cervical Cancer,Stage III,Surgery + Chemotherapy,8.2,Deceased
+261,41,Female,Thiruvananthapuram,Regional Cancer Centre,Ovarian Cancer,Stage III,Radiation,34.5,Deceased
+262,59,Female,Thiruvananthapuram,Regional Cancer Centre,Colorectal Cancer,Stage III,Chemo + Radiation,2.2,Deceased
+263,85,Male,Chennai,Adyar Cancer Institute,Lung Cancer,Stage II,Palliative Care,2.7,Deceased
+264,51,Female,Kolkata,Tata Medical Center,Breast Cancer,Stage IV,Targeted Therapy,23.3,Deceased
+265,68,Male,Mumbai,Tata Memorial Hospital,Oral Cancer,Stage I,Surgery,19.5,Alive
+266,52,Male,Ahmedabad,Gujarat Cancer Research Institute,Colorectal Cancer,Stage II,Chemo + Radiation,19.8,Alive
+267,67,Male,Thiruvananthapuram,Regional Cancer Centre,Lung Cancer,Stage I,Surgery,1.1,Deceased
+268,28,Female,Kolkata,Tata Medical Center,Breast Cancer,Stage I,Surgery,46.8,Alive
+269,56,Female,New Delhi,AIIMS,Colorectal Cancer,Stage IV,Palliative Care,13.4,Deceased
+270,55,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Cervical Cancer,Stage III,Palliative Care,14.6,Deceased
+271,56,Female,Mumbai,Tata Memorial Hospital,Breast Cancer,Stage II,Palliative Care,35.7,Deceased
+272,70,Male,New Delhi,AIIMS,Lung Cancer,Stage I,Surgery,29.6,Alive
+273,90,Male,Mumbai,Tata Memorial Hospital,Stomach Cancer,Stage IV,Chemotherapy,24,Deceased
+274,58,Male,Chennai,Adyar Cancer Institute,Stomach Cancer,Stage III,Surgery,11.7,Deceased
+275,71,Male,Thiruvananthapuram,Regional Cancer Centre,Colorectal Cancer,Stage II,Surgery,18.1,Alive
+276,80,Male,Ahmedabad,Gujarat Cancer Research Institute,Lung Cancer,Stage II,Targeted Therapy,50.7,Alive
+277,63,Female,Chandigarh,PGIMER,Lung Cancer,Stage IV,Chemotherapy,8.2,Deceased
+278,53,Female,New Delhi,AIIMS,Cervical Cancer,Stage III,Surgery + Chemotherapy,9.1,Alive
+279,66,Female,Kolkata,Tata Medical Center,Lung Cancer,Stage III,Radiation,9.1,Deceased
+280,68,Male,New Delhi,AIIMS,Lung Cancer,Stage II,Palliative Care,9.2,Deceased
+281,49,Female,Mumbai,Tata Memorial Hospital,Cervical Cancer,Stage III,Palliative Care,8.3,Deceased
+282,47,Female,Mumbai,Tata Memorial Hospital,Cervical Cancer,Stage III,Targeted Therapy,18.2,Alive
+283,49,Female,Kolkata,Tata Medical Center,Oral Cancer,Stage IV,Palliative Care,19.2,Deceased
+284,52,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Breast Cancer,Stage I,Surgery,31.7,Alive
+285,1,Male,Chandigarh,PGIMER,Leukemia,Stage III,Radiation,20.7,Deceased
+286,67,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Colorectal Cancer,Stage I,Radiation,35.5,Alive
+287,59,Male,Chandigarh,PGIMER,Oral Cancer,Stage II,Palliative Care,19.4,Alive
+288,56,Female,Chandigarh,PGIMER,Colorectal Cancer,Stage IV,Targeted Therapy,4.1,Deceased
+289,44,Female,New Delhi,Rajiv Gandhi Cancer Institute,Breast Cancer,Stage II,Palliative Care,7.9,Alive
+290,53,Female,Thiruvananthapuram,Regional Cancer Centre,Breast Cancer,Stage III,Chemotherapy,3.6,Deceased
+291,60,Male,Kolkata,Tata Medical Center,Lung Cancer,Stage II,Targeted Therapy,16,Deceased
+292,52,Female,Chandigarh,PGIMER,Cervical Cancer,Stage III,Surgery + Chemotherapy,25,Deceased
+293,65,Male,Mumbai,Tata Memorial Hospital,Oral Cancer,Stage II,Surgery,47.9,Alive
+294,37,Male,Mumbai,Tata Memorial Hospital,Oral Cancer,Stage III,Surgery,25.8,Alive
+295,68,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Breast Cancer,Stage IV,Chemotherapy,20.2,Alive
+296,71,Male,Thiruvananthapuram,Regional Cancer Centre,Colorectal Cancer,Stage I,Surgery,1.3,Deceased
+297,55,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Breast Cancer,Stage III,Surgery,5.7,Alive
+298,53,Female,Mumbai,Tata Memorial Hospital,Lung Cancer,Stage III,Palliative Care,27.5,Deceased
+299,43,Female,Chandigarh,PGIMER,Breast Cancer,Stage II,Surgery,10.8,Deceased
+300,47,Female,Chandigarh,PGIMER,Oral Cancer,Stage III,Radiation,5.2,Deceased
+301,61,Female,New Delhi,Rajiv Gandhi Cancer Institute,Cervical Cancer,Stage III,Chemotherapy,12,Deceased
+302,27,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Breast Cancer,Stage I,Surgery,53.1,Alive
+303,38,Female,New Delhi,AIIMS,Cervical Cancer,Stage III,Surgery,12.4,Deceased
+304,59,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Stomach Cancer,Stage I,Radiation,4.2,Deceased
+305,65,Female,Mumbai,Tata Memorial Hospital,Breast Cancer,Stage II,Chemo + Radiation,30.6,Alive
+306,62,Female,Ahmedabad,Gujarat Cancer Research Institute,Lung Cancer,Stage II,Palliative Care,3.5,Deceased
+307,51,Female,Thiruvananthapuram,Regional Cancer Centre,Breast Cancer,Stage II,Chemo + Radiation,30.1,Alive
+308,42,Male,Thiruvananthapuram,Regional Cancer Centre,Stomach Cancer,Stage I,Radiation,51.4,Alive
+309,55,Female,Thiruvananthapuram,Regional Cancer Centre,Oral Cancer,Stage III,Palliative Care,1.8,Deceased
+310,53,Female,Ahmedabad,Gujarat Cancer Research Institute,Breast Cancer,Stage I,Surgery,50.8,Alive
+311,44,Female,Chennai,Adyar Cancer Institute,Breast Cancer,Stage III,Surgery,37.2,Deceased
+312,35,Female,New Delhi,AIIMS,Breast Cancer,Stage II,Palliative Care,30,Alive
+313,46,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Cervical Cancer,Stage II,Palliative Care,7.4,Deceased
+314,35,Female,Thiruvananthapuram,Regional Cancer Centre,Cervical Cancer,Stage III,Radiation,24.9,Deceased
+315,58,Female,Chennai,Adyar Cancer Institute,Breast Cancer,Stage I,Surgery,22.2,Deceased
+316,73,Male,Kolkata,Tata Medical Center,Oral Cancer,Stage III,Surgery,23.7,Deceased
+317,69,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Cervical Cancer,Stage IV,Chemotherapy,8.7,Deceased
+318,46,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Breast Cancer,Stage II,Targeted Therapy,43.8,Alive
+319,70,Female,Ahmedabad,Gujarat Cancer Research Institute,Lung Cancer,Stage IV,Palliative Care,3.8,Deceased
+320,34,Male,Chandigarh,PGIMER,Oral Cancer,Stage III,Surgery,28.8,Alive
+321,16,Female,Kolkata,Tata Medical Center,Breast Cancer,Stage IV,Palliative Care,17,Deceased
+322,65,Female,Chandigarh,PGIMER,Breast Cancer,Stage III,Chemotherapy,33.2,Alive
+323,56,Female,New Delhi,AIIMS,Breast Cancer,Stage II,Chemotherapy,21.7,Deceased
+324,47,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Cervical Cancer,Stage IV,Chemotherapy,5.8,Alive
+325,49,Female,New Delhi,AIIMS,Breast Cancer,Stage III,Surgery,7.7,Deceased
+326,59,Female,Kolkata,Tata Medical Center,Ovarian Cancer,Stage II,Targeted Therapy,15.1,Deceased
+327,48,Male,Ahmedabad,Gujarat Cancer Research Institute,Oral Cancer,Stage IV,Palliative Care,23.6,Deceased
+328,69,Female,New Delhi,AIIMS,Breast Cancer,Stage III,Chemotherapy,8.7,Deceased
+329,71,Female,Ahmedabad,Gujarat Cancer Research Institute,Stomach Cancer,Stage II,Chemo + Radiation,48.3,Alive
+330,40,Female,Ahmedabad,Gujarat Cancer Research Institute,Breast Cancer,Stage II,Surgery,14.4,Deceased
+331,64,Male,New Delhi,Rajiv Gandhi Cancer Institute,Prostate Cancer,Stage I,Surgery,14.5,Alive
+332,67,Female,Mumbai,Tata Memorial Hospital,Breast Cancer,Stage III,Surgery,29.9,Alive
+333,68,Female,Chandigarh,PGIMER,Ovarian Cancer,Stage III,Radiation,1.7,Deceased
+334,58,Male,Ahmedabad,Gujarat Cancer Research Institute,Lung Cancer,Stage IV,Palliative Care,14.8,Deceased
+335,49,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Stomach Cancer,Stage III,Chemotherapy,11.5,Deceased
+336,70,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Leukemia,Stage I,Surgery,8,Deceased
+337,65,Male,New Delhi,Rajiv Gandhi Cancer Institute,Lung Cancer,Stage III,Targeted Therapy,3.7,Deceased
+338,27,Female,New Delhi,AIIMS,Oral Cancer,Stage IV,Targeted Therapy,5.5,Deceased
+339,50,Female,Kolkata,Tata Medical Center,Breast Cancer,Stage II,Surgery,8.9,Alive
+340,62,Male,Hyderabad,Basavatarakam Indo American Cancer Hospital,Prostate Cancer,Stage III,Surgery + Chemotherapy,2.9,Deceased
+341,42,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Breast Cancer,Stage I,Surgery,34.9,Alive
+342,27,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Oral Cancer,Stage I,Surgery,20,Alive
+343,65,Male,Ahmedabad,Gujarat Cancer Research Institute,Lung Cancer,Stage II,Chemo + Radiation,3.7,Deceased
+344,70,Male,New Delhi,AIIMS,Lung Cancer,Stage IV,Palliative Care,18,Deceased
+345,69,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Breast Cancer,Stage III,Surgery + Chemotherapy,3.7,Deceased
+346,61,Male,Chennai,Adyar Cancer Institute,Oral Cancer,Stage IV,Chemotherapy,6.1,Deceased
+347,34,Female,New Delhi,Rajiv Gandhi Cancer Institute,Oral Cancer,Stage II,Radiation,13.9,Deceased
+348,33,Female,Mumbai,Tata Memorial Hospital,Cervical Cancer,Stage III,Palliative Care,18.9,Deceased
+349,48,Female,New Delhi,Rajiv Gandhi Cancer Institute,Breast Cancer,Stage II,Targeted Therapy,16.4,Deceased
+350,30,Female,New Delhi,Rajiv Gandhi Cancer Institute,Oral Cancer,Stage III,Palliative Care,22.4,Deceased
+351,54,Female,New Delhi,Rajiv Gandhi Cancer Institute,Lung Cancer,Stage III,Chemotherapy,10.5,Deceased
+352,31,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Breast Cancer,Stage IV,Chemotherapy,45,Deceased
+353,62,Male,Mumbai,Tata Memorial Hospital,Colorectal Cancer,Stage II,Chemo + Radiation,16.4,Alive
+354,47,Male,Chennai,Adyar Cancer Institute,Leukemia,Stage II,Palliative Care,6,Alive
+355,10,Female,New Delhi,Rajiv Gandhi Cancer Institute,Breast Cancer,Stage I,Radiation,28.8,Alive
+356,39,Male,Thiruvananthapuram,Regional Cancer Centre,Lung Cancer,Stage I,Surgery,19.3,Deceased
+357,46,Female,Mumbai,Tata Memorial Hospital,Breast Cancer,Stage II,Targeted Therapy,33.8,Alive
+358,63,Female,Ahmedabad,Gujarat Cancer Research Institute,Oral Cancer,Stage IV,Targeted Therapy,11.3,Deceased
+359,35,Female,Thiruvananthapuram,Regional Cancer Centre,Breast Cancer,Stage II,Palliative Care,28.7,Alive
+360,39,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Breast Cancer,Stage III,Palliative Care,30.8,Alive
+361,70,Female,Chandigarh,PGIMER,Breast Cancer,Stage II,Surgery,6.7,Deceased
+362,50,Male,Chennai,Adyar Cancer Institute,Colorectal Cancer,Stage I,Surgery,37.7,Alive
+363,32,Male,Hyderabad,Basavatarakam Indo American Cancer Hospital,Leukemia,Stage IV,Palliative Care,6.8,Deceased
+364,71,Female,Kolkata,Tata Medical Center,Ovarian Cancer,Stage II,Chemo + Radiation,24.8,Deceased
+365,57,Female,Ahmedabad,Gujarat Cancer Research Institute,Stomach Cancer,Stage III,Radiation,4.9,Deceased
+366,40,Male,New Delhi,AIIMS,Colorectal Cancer,Stage IV,Palliative Care,13.3,Deceased
+367,52,Female,Chandigarh,PGIMER,Breast Cancer,Stage III,Surgery + Chemotherapy,15.9,Alive
+368,76,Female,Chandigarh,PGIMER,Oral Cancer,Stage IV,Palliative Care,2.5,Deceased
+369,61,Female,Mumbai,Tata Memorial Hospital,Breast Cancer,Stage IV,Targeted Therapy,47.4,Deceased
+370,61,Female,Ahmedabad,Gujarat Cancer Research Institute,Stomach Cancer,Stage II,Surgery,8.2,Deceased
+371,65,Male,Hyderabad,Basavatarakam Indo American Cancer Hospital,Lung Cancer,Stage IV,Targeted Therapy,9.6,Deceased
+372,46,Female,New Delhi,Rajiv Gandhi Cancer Institute,Breast Cancer,Stage II,Surgery,45.7,Alive
+373,54,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Cervical Cancer,Stage II,Surgery,28.8,Alive
+374,54,Female,Thiruvananthapuram,Regional Cancer Centre,Cervical Cancer,Stage IV,Palliative Care,7.5,Deceased
+375,63,Female,Thiruvananthapuram,Regional Cancer Centre,Breast Cancer,Stage III,Chemo + Radiation,43.9,Deceased
+376,52,Female,Chandigarh,PGIMER,Ovarian Cancer,Stage II,Palliative Care,29,Alive
+377,58,Female,Kolkata,Tata Medical Center,Colorectal Cancer,Stage IV,Palliative Care,10.5,Deceased
+378,49,Female,New Delhi,Rajiv Gandhi Cancer Institute,Ovarian Cancer,Stage II,Surgery,43.2,Alive
+379,54,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Breast Cancer,Stage IV,Palliative Care,53.1,Alive
+380,52,Female,Ahmedabad,Gujarat Cancer Research Institute,Breast Cancer,Stage III,Palliative Care,10.7,Alive
+381,73,Male,Thiruvananthapuram,Regional Cancer Centre,Prostate Cancer,Stage I,Surgery,41.1,Alive
+382,39,Female,Thiruvananthapuram,Regional Cancer Centre,Breast Cancer,Stage IV,Targeted Therapy,46.2,Alive
+383,50,Female,Mumbai,Tata Memorial Hospital,Breast Cancer,Stage IV,Targeted Therapy,10.4,Deceased
+384,54,Female,Ahmedabad,Gujarat Cancer Research Institute,Cervical Cancer,Stage II,Surgery + Chemotherapy,3.3,Deceased
+385,32,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Cervical Cancer,Stage IV,Palliative Care,31.9,Deceased
+386,61,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Breast Cancer,Stage IV,Palliative Care,19.8,Deceased
+387,47,Female,Mumbai,Tata Memorial Hospital,Colorectal Cancer,Stage I,Surgery,23,Deceased
+388,44,Female,Ahmedabad,Gujarat Cancer Research Institute,Breast Cancer,Stage III,Radiation,7.7,Alive
+389,22,Male,Ahmedabad,Gujarat Cancer Research Institute,Colorectal Cancer,Stage II,Radiation,30.1,Alive
+390,61,Female,Thiruvananthapuram,Regional Cancer Centre,Breast Cancer,Stage III,Palliative Care,42,Deceased
+391,57,Male,Thiruvananthapuram,Regional Cancer Centre,Colorectal Cancer,Stage IV,Palliative Care,50.5,Deceased
+392,39,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Cervical Cancer,Stage III,Radiation,9.9,Deceased
+393,31,Male,Chandigarh,PGIMER,Oral Cancer,Stage I,Surgery,36.2,Alive
+394,49,Female,Mumbai,Tata Memorial Hospital,Breast Cancer,Stage I,Surgery,50.1,Alive
+395,62,Female,Mumbai,Tata Memorial Hospital,Breast Cancer,Stage II,Radiation,20.8,Alive
+396,53,Male,Chandigarh,PGIMER,Prostate Cancer,Stage III,Targeted Therapy,12.3,Deceased
+397,54,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Cervical Cancer,Stage IV,Targeted Therapy,19.9,Alive
+398,53,Female,Thiruvananthapuram,Regional Cancer Centre,Colorectal Cancer,Stage III,Chemotherapy,30.8,Alive
+399,67,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Lung Cancer,Stage IV,Targeted Therapy,43.6,Alive
+400,44,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Colorectal Cancer,Stage III,Chemotherapy,6.5,Deceased
+401,25,Female,Ahmedabad,Gujarat Cancer Research Institute,Breast Cancer,Stage II,Surgery + Chemotherapy,15.3,Deceased
+402,49,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Oral Cancer,Stage III,Targeted Therapy,27.8,Alive
+403,47,Female,New Delhi,Rajiv Gandhi Cancer Institute,Cervical Cancer,Stage IV,Palliative Care,42,Alive
+404,2,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Leukemia,Stage III,Surgery,3.1,Deceased
+405,73,Male,New Delhi,Rajiv Gandhi Cancer Institute,Prostate Cancer,Stage IV,Palliative Care,23.3,Deceased
+406,51,Female,Kolkata,Tata Medical Center,Cervical Cancer,Stage III,Surgery,33.3,Deceased
+407,46,Female,Thiruvananthapuram,Regional Cancer Centre,Breast Cancer,Stage II,Targeted Therapy,9,Deceased
+408,59,Female,Ahmedabad,Gujarat Cancer Research Institute,Oral Cancer,Stage III,Targeted Therapy,22.1,Deceased
+409,59,Female,Kolkata,Tata Medical Center,Colorectal Cancer,Stage IV,Chemotherapy,18.5,Deceased
+410,66,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Oral Cancer,Stage IV,Chemotherapy,14.9,Deceased
+411,39,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Breast Cancer,Stage II,Surgery,35.2,Alive
+412,57,Male,Ahmedabad,Gujarat Cancer Research Institute,Stomach Cancer,Stage I,Surgery,2.6,Deceased
+413,56,Female,Ahmedabad,Gujarat Cancer Research Institute,Breast Cancer,Stage II,Chemo + Radiation,32.1,Deceased
+414,60,Male,Chennai,Adyar Cancer Institute,Prostate Cancer,Stage III,Surgery,38.9,Alive
+415,61,Female,Mumbai,Tata Memorial Hospital,Breast Cancer,Stage IV,Palliative Care,23.9,Deceased
+416,62,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Breast Cancer,Stage I,Surgery,31.8,Alive
+417,25,Female,Chennai,Adyar Cancer Institute,Breast Cancer,Stage IV,Chemotherapy,5,Deceased
+418,63,Female,New Delhi,Rajiv Gandhi Cancer Institute,Leukemia,Stage IV,Palliative Care,1,Deceased
+419,66,Female,Ahmedabad,Gujarat Cancer Research Institute,Breast Cancer,Stage III,Chemotherapy,6.9,Deceased
+420,45,Female,Kolkata,Tata Medical Center,Cervical Cancer,Stage IV,Palliative Care,29.7,Alive
+421,44,Female,New Delhi,Rajiv Gandhi Cancer Institute,Oral Cancer,Stage IV,Chemotherapy,1.1,Deceased
+422,49,Female,Thiruvananthapuram,Regional Cancer Centre,Lung Cancer,Stage III,Chemotherapy,9.3,Deceased
+423,40,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Breast Cancer,Stage II,Chemo + Radiation,27.4,Alive
+424,45,Female,New Delhi,Rajiv Gandhi Cancer Institute,Stomach Cancer,Stage IV,Targeted Therapy,11.7,Deceased
+425,61,Male,Chandigarh,PGIMER,Stomach Cancer,Stage III,Chemo + Radiation,27.9,Deceased
+426,46,Female,Kolkata,Tata Medical Center,Breast Cancer,Stage II,Palliative Care,29.1,Deceased
+427,69,Female,Kolkata,Tata Medical Center,Breast Cancer,Stage III,Chemotherapy,23.6,Deceased
+428,57,Female,Kolkata,Tata Medical Center,Colorectal Cancer,Stage II,Radiation,14.9,Deceased
+429,24,Female,Thiruvananthapuram,Regional Cancer Centre,Breast Cancer,Stage II,Targeted Therapy,18.1,Alive
+430,62,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Oral Cancer,Stage II,Radiation,38.1,Alive
+431,38,Female,New Delhi,AIIMS,Breast Cancer,Stage IV,Palliative Care,5.6,Deceased
+432,42,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Stomach Cancer,Stage II,Chemo + Radiation,11.8,Deceased
+433,67,Male,Hyderabad,Basavatarakam Indo American Cancer Hospital,Prostate Cancer,Stage III,Targeted Therapy,2.4,Deceased
+434,43,Female,Thiruvananthapuram,Regional Cancer Centre,Cervical Cancer,Stage I,Surgery,27,Deceased
+435,62,Female,New Delhi,Rajiv Gandhi Cancer Institute,Breast Cancer,Stage I,Surgery,11.7,Alive
+436,41,Female,Chandigarh,PGIMER,Cervical Cancer,Stage II,Radiation,3.4,Deceased
+437,38,Female,Chennai,Adyar Cancer Institute,Cervical Cancer,Stage III,Targeted Therapy,3.5,Deceased
+438,64,Male,New Delhi,Rajiv Gandhi Cancer Institute,Lung Cancer,Stage II,Targeted Therapy,1.1,Deceased
+439,40,Male,Chandigarh,PGIMER,Oral Cancer,Stage III,Surgery + Chemotherapy,53.1,Alive
+440,66,Male,Chandigarh,PGIMER,Lung Cancer,Stage I,Surgery,51,Alive
+441,79,Male,Kolkata,Tata Medical Center,Stomach Cancer,Stage II,Chemotherapy,13.3,Deceased
+442,73,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Colorectal Cancer,Stage I,Surgery,8,Alive
+443,31,Female,New Delhi,AIIMS,Breast Cancer,Stage IV,Chemotherapy,4.7,Deceased
+444,55,Male,Thiruvananthapuram,Regional Cancer Centre,Stomach Cancer,Stage IV,Chemotherapy,33.5,Deceased
+445,55,Female,New Delhi,Rajiv Gandhi Cancer Institute,Cervical Cancer,Stage II,Surgery + Chemotherapy,23.7,Deceased
+446,75,Male,Mumbai,Tata Memorial Hospital,Oral Cancer,Stage III,Chemotherapy,4.5,Deceased
+447,46,Female,Mumbai,Tata Memorial Hospital,Leukemia,Stage II,Targeted Therapy,16.9,Alive
+448,40,Female,New Delhi,Rajiv Gandhi Cancer Institute,Breast Cancer,Stage II,Surgery + Chemotherapy,17.9,Deceased
+449,56,Male,Chennai,Adyar Cancer Institute,Colorectal Cancer,Stage II,Targeted Therapy,4.5,Deceased
+450,57,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Breast Cancer,Stage IV,Chemotherapy,26.3,Alive
+451,23,Female,Ahmedabad,Gujarat Cancer Research Institute,Cervical Cancer,Stage III,Chemo + Radiation,40.6,Deceased
+452,63,Female,Thiruvananthapuram,Regional Cancer Centre,Breast Cancer,Stage II,Palliative Care,17.2,Deceased
+453,34,Female,Chennai,Adyar Cancer Institute,Lung Cancer,Stage III,Chemotherapy,9.9,Deceased
+454,71,Male,Chandigarh,PGIMER,Lung Cancer,Stage IV,Chemotherapy,11.7,Deceased
+455,55,Female,Chandigarh,PGIMER,Colorectal Cancer,Stage IV,Targeted Therapy,18.8,Deceased
+456,60,Male,Thiruvananthapuram,Regional Cancer Centre,Lung Cancer,Stage I,Surgery,10.6,Deceased
+457,67,Female,New Delhi,AIIMS,Oral Cancer,Stage IV,Palliative Care,28.1,Deceased
+458,57,Male,Chandigarh,PGIMER,Colorectal Cancer,Stage II,Radiation,42.4,Alive
+459,49,Female,New Delhi,AIIMS,Oral Cancer,Stage III,Radiation,51.8,Alive
+460,39,Female,Thiruvananthapuram,Regional Cancer Centre,Oral Cancer,Stage III,Chemotherapy,7.4,Deceased
+461,44,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Breast Cancer,Stage I,Surgery,41.3,Alive
+462,40,Female,Chandigarh,PGIMER,Breast Cancer,Stage II,Chemo + Radiation,31.6,Alive
+463,48,Female,Kolkata,Tata Medical Center,Breast Cancer,Stage II,Chemo + Radiation,13.9,Deceased
+464,66,Male,Mumbai,Tata Memorial Hospital,Prostate Cancer,Stage II,Chemotherapy,1.9,Deceased
+465,58,Female,Chennai,Adyar Cancer Institute,Colorectal Cancer,Stage II,Surgery + Chemotherapy,13.1,Deceased
+466,66,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Oral Cancer,Stage IV,Palliative Care,28.2,Deceased
+467,49,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Stomach Cancer,Stage IV,Palliative Care,2.6,Deceased
+468,61,Male,Mumbai,Tata Memorial Hospital,Prostate Cancer,Stage I,Radiation,28.2,Alive
+469,75,Female,Chennai,Adyar Cancer Institute,Lung Cancer,Stage III,Palliative Care,5.8,Deceased
+470,26,Female,Mumbai,Tata Memorial Hospital,Oral Cancer,Stage III,Radiation,30.7,Alive
+471,56,Female,Mumbai,Tata Memorial Hospital,Cervical Cancer,Stage III,Radiation,1.8,Deceased
+472,33,Female,Chennai,Adyar Cancer Institute,Breast Cancer,Stage II,Chemo + Radiation,5.4,Deceased
+473,50,Female,New Delhi,Rajiv Gandhi Cancer Institute,Cervical Cancer,Stage IV,Chemotherapy,5.6,Alive
+474,46,Male,New Delhi,AIIMS,Oral Cancer,Stage IV,Targeted Therapy,11.9,Deceased
+475,45,Male,Ahmedabad,Gujarat Cancer Research Institute,Oral Cancer,Stage IV,Palliative Care,29.5,Alive
+476,32,Female,Mumbai,Tata Memorial Hospital,Oral Cancer,Stage I,Surgery,34.7,Alive
+477,39,Female,Chennai,Adyar Cancer Institute,Ovarian Cancer,Stage III,Chemotherapy,6.6,Deceased
+478,62,Female,Chandigarh,PGIMER,Breast Cancer,Stage II,Surgery,3.5,Deceased
+479,72,Female,Kolkata,Tata Medical Center,Oral Cancer,Stage II,Targeted Therapy,49,Alive
+480,63,Female,New Delhi,Rajiv Gandhi Cancer Institute,Ovarian Cancer,Stage IV,Chemotherapy,42.5,Alive
+481,31,Female,Kolkata,Tata Medical Center,Breast Cancer,Stage I,Surgery,13.9,Deceased
+482,69,Female,New Delhi,AIIMS,Stomach Cancer,Stage II,Targeted Therapy,14.7,Deceased
+483,55,Female,New Delhi,Rajiv Gandhi Cancer Institute,Oral Cancer,Stage I,Surgery,41,Alive
+484,57,Male,Kolkata,Tata Medical Center,Oral Cancer,Stage II,Surgery,29.7,Alive
+485,47,Female,Kolkata,Tata Medical Center,Breast Cancer,Stage III,Surgery,42.8,Alive
+486,66,Male,Kolkata,Tata Medical Center,Prostate Cancer,Stage III,Chemotherapy,5.9,Deceased
+487,57,Female,Kolkata,Tata Medical Center,Cervical Cancer,Stage II,Surgery,6.5,Deceased
+488,82,Female,New Delhi,AIIMS,Oral Cancer,Stage III,Chemo + Radiation,28.2,Deceased
+489,45,Female,New Delhi,Rajiv Gandhi Cancer Institute,Breast Cancer,Stage III,Targeted Therapy,27.3,Alive
+490,58,Male,Kolkata,Tata Medical Center,Prostate Cancer,Stage IV,Palliative Care,4.6,Deceased
+491,81,Male,New Delhi,AIIMS,Colorectal Cancer,Stage I,Surgery,5.5,Alive
+492,50,Male,New Delhi,Rajiv Gandhi Cancer Institute,Oral Cancer,Stage I,Surgery,32.7,Deceased
+493,63,Male,Chandigarh,PGIMER,Oral Cancer,Stage IV,Targeted Therapy,30.4,Deceased
+494,24,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Leukemia,Stage III,Palliative Care,51.4,Alive
+495,45,Female,Kolkata,Tata Medical Center,Leukemia,Stage III,Targeted Therapy,1.1,Deceased
+496,52,Female,New Delhi,Rajiv Gandhi Cancer Institute,Cervical Cancer,Stage II,Surgery,19.5,Alive
+497,51,Female,Chandigarh,PGIMER,Breast Cancer,Stage III,Surgery + Chemotherapy,6.5,Alive
+498,46,Female,Ahmedabad,Gujarat Cancer Research Institute,Cervical Cancer,Stage III,Radiation,13.2,Deceased
+499,44,Female,Thiruvananthapuram,Regional Cancer Centre,Breast Cancer,Stage I,Surgery,29.3,Alive
+500,63,Male,Chennai,Adyar Cancer Institute,Lung Cancer,Stage IV,Chemotherapy,5,Deceased
+501,46,Female,Ahmedabad,Gujarat Cancer Research Institute,Lung Cancer,Stage I,Radiation,1,Deceased
+502,51,Female,Ahmedabad,Gujarat Cancer Research Institute,Ovarian Cancer,Stage II,Surgery + Chemotherapy,4,Deceased
+503,56,Male,Chandigarh,PGIMER,Stomach Cancer,Stage II,Chemo + Radiation,39.2,Deceased
+504,44,Female,New Delhi,AIIMS,Ovarian Cancer,Stage III,Targeted Therapy,28.9,Deceased
+505,61,Female,New Delhi,AIIMS,Cervical Cancer,Stage II,Targeted Therapy,15.2,Alive
+506,65,Female,Thiruvananthapuram,Regional Cancer Centre,Breast Cancer,Stage IV,Targeted Therapy,46.6,Alive
+507,57,Male,New Delhi,AIIMS,Stomach Cancer,Stage III,Palliative Care,34.9,Alive
+508,41,Female,Ahmedabad,Gujarat Cancer Research Institute,Cervical Cancer,Stage III,Surgery,33.1,Alive
+509,76,Male,Chennai,Adyar Cancer Institute,Lung Cancer,Stage III,Chemo + Radiation,24.8,Deceased
+510,59,Female,Thiruvananthapuram,Regional Cancer Centre,Breast Cancer,Stage III,Surgery,6.9,Alive
+511,59,Male,Thiruvananthapuram,Regional Cancer Centre,Lung Cancer,Stage III,Surgery + Chemotherapy,14.2,Deceased
+512,52,Female,Chennai,Adyar Cancer Institute,Breast Cancer,Stage IV,Chemotherapy,33.6,Deceased
+513,23,Female,Mumbai,Tata Memorial Hospital,Leukemia,Stage III,Palliative Care,10.3,Deceased
+514,42,Female,Ahmedabad,Gujarat Cancer Research Institute,Cervical Cancer,Stage IV,Palliative Care,13.5,Deceased
+515,64,Female,Mumbai,Tata Memorial Hospital,Breast Cancer,Stage IV,Targeted Therapy,18.7,Deceased
+516,52,Female,New Delhi,AIIMS,Oral Cancer,Stage III,Chemotherapy,44.9,Alive
+517,35,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Cervical Cancer,Stage IV,Chemotherapy,23.3,Deceased
+518,56,Female,Mumbai,Tata Memorial Hospital,Ovarian Cancer,Stage I,Surgery,48,Alive
+519,55,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Lung Cancer,Stage III,Surgery,13.6,Deceased
+520,62,Female,Thiruvananthapuram,Regional Cancer Centre,Colorectal Cancer,Stage I,Surgery,15.3,Deceased
+521,58,Male,Chennai,Adyar Cancer Institute,Stomach Cancer,Stage IV,Targeted Therapy,13,Deceased
+522,50,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Leukemia,Stage III,Radiation,1.3,Deceased
+523,59,Male,Chennai,Adyar Cancer Institute,Oral Cancer,Stage III,Targeted Therapy,13.4,Alive
+524,44,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Ovarian Cancer,Stage III,Chemo + Radiation,16,Deceased
+525,39,Female,Thiruvananthapuram,Regional Cancer Centre,Breast Cancer,Stage IV,Targeted Therapy,9.6,Deceased
+526,66,Male,Hyderabad,Basavatarakam Indo American Cancer Hospital,Prostate Cancer,Stage IV,Palliative Care,38.4,Alive
+527,66,Male,Mumbai,Tata Memorial Hospital,Lung Cancer,Stage II,Palliative Care,49.4,Alive
+528,37,Female,Kolkata,Tata Medical Center,Breast Cancer,Stage IV,Chemotherapy,31.4,Alive
+529,39,Male,Thiruvananthapuram,Regional Cancer Centre,Oral Cancer,Stage II,Radiation,35.7,Alive
+530,72,Male,Hyderabad,Basavatarakam Indo American Cancer Hospital,Prostate Cancer,Stage II,Chemo + Radiation,18.4,Alive
+531,48,Male,Kolkata,Tata Medical Center,Oral Cancer,Stage IV,Chemotherapy,12.6,Deceased
+532,62,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Oral Cancer,Stage II,Surgery + Chemotherapy,14.1,Alive
+533,64,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Stomach Cancer,Stage III,Surgery,34.5,Deceased
+534,69,Female,New Delhi,AIIMS,Colorectal Cancer,Stage IV,Palliative Care,29.9,Deceased
+535,14,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Breast Cancer,Stage IV,Chemotherapy,44.8,Alive
+536,26,Female,Mumbai,Tata Memorial Hospital,Colorectal Cancer,Stage II,Surgery,20.9,Alive
+537,56,Male,New Delhi,Rajiv Gandhi Cancer Institute,Lung Cancer,Stage II,Radiation,18.7,Deceased
+538,53,Female,New Delhi,Rajiv Gandhi Cancer Institute,Breast Cancer,Stage IV,Targeted Therapy,25.2,Deceased
+539,50,Female,Mumbai,Tata Memorial Hospital,Breast Cancer,Stage I,Surgery,5.3,Alive
+540,63,Male,New Delhi,AIIMS,Lung Cancer,Stage III,Radiation,48.3,Deceased
+541,88,Female,New Delhi,Rajiv Gandhi Cancer Institute,Oral Cancer,Stage III,Targeted Therapy,17.4,Alive
+542,50,Female,New Delhi,Rajiv Gandhi Cancer Institute,Breast Cancer,Stage III,Chemo + Radiation,16.4,Alive
+543,55,Female,Kolkata,Tata Medical Center,Breast Cancer,Stage III,Chemo + Radiation,1.6,Deceased
+544,59,Female,Thiruvananthapuram,Regional Cancer Centre,Lung Cancer,Stage III,Surgery + Chemotherapy,12.2,Deceased
+545,74,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Lung Cancer,Stage I,Surgery,20.3,Deceased
+546,43,Female,Chandigarh,PGIMER,Breast Cancer,Stage IV,Palliative Care,38,Alive
+547,51,Female,New Delhi,Rajiv Gandhi Cancer Institute,Breast Cancer,Stage I,Surgery,49.8,Alive
+548,78,Male,New Delhi,AIIMS,Prostate Cancer,Stage II,Palliative Care,41.8,Alive
+549,73,Male,Ahmedabad,Gujarat Cancer Research Institute,Oral Cancer,Stage I,Radiation,9.1,Alive
+550,31,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Breast Cancer,Stage II,Surgery + Chemotherapy,45.8,Alive
+551,47,Female,Ahmedabad,Gujarat Cancer Research Institute,Ovarian Cancer,Stage III,Chemo + Radiation,30.3,Deceased
+552,50,Male,Chandigarh,PGIMER,Prostate Cancer,Stage IV,Palliative Care,32.9,Alive
+553,60,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Breast Cancer,Stage I,Surgery,14.9,Alive
+554,38,Female,New Delhi,Rajiv Gandhi Cancer Institute,Breast Cancer,Stage I,Radiation,46.6,Alive
+555,68,Female,Mumbai,Tata Memorial Hospital,Breast Cancer,Stage III,Surgery + Chemotherapy,17.7,Alive
+556,46,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Oral Cancer,Stage II,Chemo + Radiation,43.4,Alive
+557,43,Female,Kolkata,Tata Medical Center,Oral Cancer,Stage III,Chemotherapy,1.6,Deceased
+558,46,Female,Thiruvananthapuram,Regional Cancer Centre,Ovarian Cancer,Stage III,Targeted Therapy,2.6,Deceased
+559,50,Female,Chennai,Adyar Cancer Institute,Colorectal Cancer,Stage II,Chemotherapy,25,Alive
+560,41,Female,Thiruvananthapuram,Regional Cancer Centre,Cervical Cancer,Stage I,Surgery,19.9,Deceased
+561,31,Female,Thiruvananthapuram,Regional Cancer Centre,Breast Cancer,Stage III,Radiation,14.6,Alive
+562,65,Female,Thiruvananthapuram,Regional Cancer Centre,Breast Cancer,Stage IV,Palliative Care,1.7,Deceased
+563,48,Male,Hyderabad,Basavatarakam Indo American Cancer Hospital,Lung Cancer,Stage I,Radiation,45.3,Deceased
+564,74,Male,New Delhi,Rajiv Gandhi Cancer Institute,Lung Cancer,Stage IV,Chemotherapy,4,Deceased
+565,58,Female,Ahmedabad,Gujarat Cancer Research Institute,Stomach Cancer,Stage II,Palliative Care,7.5,Deceased
+566,57,Female,New Delhi,Rajiv Gandhi Cancer Institute,Cervical Cancer,Stage II,Chemotherapy,6.1,Deceased
+567,62,Male,Hyderabad,Basavatarakam Indo American Cancer Hospital,Oral Cancer,Stage II,Surgery,30.1,Alive
+568,60,Female,Chandigarh,PGIMER,Cervical Cancer,Stage IV,Palliative Care,13.4,Deceased
+569,59,Female,New Delhi,AIIMS,Ovarian Cancer,Stage II,Chemo + Radiation,14.2,Deceased
+570,51,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Lung Cancer,Stage III,Palliative Care,20.8,Deceased
+571,57,Male,Ahmedabad,Gujarat Cancer Research Institute,Oral Cancer,Stage II,Chemo + Radiation,38,Deceased
+572,76,Female,New Delhi,Rajiv Gandhi Cancer Institute,Lung Cancer,Stage III,Chemo + Radiation,1.7,Deceased
+573,60,Female,New Delhi,AIIMS,Ovarian Cancer,Stage II,Chemotherapy,13.9,Deceased
+574,22,Female,New Delhi,Rajiv Gandhi Cancer Institute,Leukemia,Stage II,Chemotherapy,15.3,Deceased
+575,51,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Stomach Cancer,Stage III,Chemo + Radiation,7.7,Deceased
+576,63,Male,Chandigarh,PGIMER,Prostate Cancer,Stage IV,Palliative Care,4.5,Deceased
+577,59,Male,Ahmedabad,Gujarat Cancer Research Institute,Stomach Cancer,Stage II,Surgery,42.9,Alive
+578,72,Female,Thiruvananthapuram,Regional Cancer Centre,Breast Cancer,Stage III,Radiation,3.9,Deceased
+579,44,Female,Chennai,Adyar Cancer Institute,Breast Cancer,Stage IV,Palliative Care,30.6,Deceased
+580,31,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Oral Cancer,Stage II,Surgery + Chemotherapy,21.8,Alive
+581,82,Male,Chennai,Adyar Cancer Institute,Stomach Cancer,Stage III,Targeted Therapy,6.7,Deceased
+582,56,Male,New Delhi,AIIMS,Colorectal Cancer,Stage II,Radiation,4.9,Deceased
+583,49,Female,Mumbai,Tata Memorial Hospital,Breast Cancer,Stage I,Radiation,17.3,Deceased
+584,57,Female,Thiruvananthapuram,Regional Cancer Centre,Breast Cancer,Stage III,Chemo + Radiation,27.9,Deceased
+585,61,Female,New Delhi,Rajiv Gandhi Cancer Institute,Ovarian Cancer,Stage III,Surgery,9.8,Deceased
+586,41,Female,Chandigarh,PGIMER,Oral Cancer,Stage II,Radiation,15.2,Deceased
+587,22,Male,Kolkata,Tata Medical Center,Oral Cancer,Stage I,Radiation,7.4,Deceased
+588,57,Male,Chennai,Adyar Cancer Institute,Lung Cancer,Stage III,Targeted Therapy,5,Deceased
+589,80,Female,Thiruvananthapuram,Regional Cancer Centre,Stomach Cancer,Stage III,Surgery + Chemotherapy,30.7,Deceased
+590,72,Female,Ahmedabad,Gujarat Cancer Research Institute,Stomach Cancer,Stage III,Radiation,10.7,Deceased
+591,61,Female,New Delhi,AIIMS,Stomach Cancer,Stage II,Surgery + Chemotherapy,6.9,Deceased
+592,66,Female,New Delhi,AIIMS,Breast Cancer,Stage I,Surgery,41.8,Alive
+593,53,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Breast Cancer,Stage III,Surgery,22.7,Alive
+594,55,Female,Chennai,Adyar Cancer Institute,Leukemia,Stage II,Surgery + Chemotherapy,7.8,Alive
+595,59,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Lung Cancer,Stage II,Palliative Care,2.9,Deceased
+596,62,Male,New Delhi,AIIMS,Prostate Cancer,Stage II,Radiation,53.1,Alive
+597,64,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Breast Cancer,Stage IV,Palliative Care,20.7,Deceased
+598,36,Female,New Delhi,Rajiv Gandhi Cancer Institute,Ovarian Cancer,Stage III,Targeted Therapy,1.6,Deceased
+599,60,Female,Chandigarh,PGIMER,Breast Cancer,Stage III,Chemo + Radiation,32.2,Deceased
+600,56,Female,New Delhi,Rajiv Gandhi Cancer Institute,Cervical Cancer,Stage I,Radiation,17,Deceased
+601,55,Female,Mumbai,Tata Memorial Hospital,Lung Cancer,Stage I,Surgery,39.6,Deceased
+602,62,Male,Chennai,Adyar Cancer Institute,Oral Cancer,Stage III,Surgery + Chemotherapy,5.9,Deceased
+603,46,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Cervical Cancer,Stage II,Palliative Care,19.7,Alive
+604,56,Male,Mumbai,Tata Memorial Hospital,Oral Cancer,Stage III,Surgery,8.6,Deceased
+605,66,Female,Thiruvananthapuram,Regional Cancer Centre,Colorectal Cancer,Stage IV,Palliative Care,20,Deceased
+606,48,Female,New Delhi,Rajiv Gandhi Cancer Institute,Lung Cancer,Stage III,Radiation,37.1,Alive
+607,49,Male,Ahmedabad,Gujarat Cancer Research Institute,Lung Cancer,Stage II,Chemo + Radiation,15.9,Deceased
+608,65,Female,New Delhi,AIIMS,Cervical Cancer,Stage I,Surgery,7.1,Alive
+609,67,Female,Chennai,Adyar Cancer Institute,Cervical Cancer,Stage I,Surgery,19.4,Deceased
+610,69,Male,Thiruvananthapuram,Regional Cancer Centre,Stomach Cancer,Stage III,Radiation,24.3,Deceased
+611,54,Female,Mumbai,Tata Memorial Hospital,Breast Cancer,Stage IV,Palliative Care,17.6,Deceased
+612,45,Male,Thiruvananthapuram,Regional Cancer Centre,Oral Cancer,Stage III,Chemo + Radiation,47.7,Alive
+613,50,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Oral Cancer,Stage IV,Targeted Therapy,16.5,Alive
+614,26,Female,New Delhi,Rajiv Gandhi Cancer Institute,Leukemia,Stage IV,Targeted Therapy,2.7,Deceased
+615,64,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Colorectal Cancer,Stage III,Chemo + Radiation,11.1,Deceased
+616,44,Male,Thiruvananthapuram,Regional Cancer Centre,Lung Cancer,Stage II,Surgery,17.5,Alive
+617,42,Female,Kolkata,Tata Medical Center,Oral Cancer,Stage IV,Palliative Care,20.3,Deceased
+618,35,Male,Ahmedabad,Gujarat Cancer Research Institute,Oral Cancer,Stage III,Surgery + Chemotherapy,11.1,Alive
+619,35,Female,Chandigarh,PGIMER,Oral Cancer,Stage III,Chemotherapy,13.8,Deceased
+620,45,Female,Chandigarh,PGIMER,Breast Cancer,Stage III,Palliative Care,11.1,Deceased
+621,40,Female,Chennai,Adyar Cancer Institute,Breast Cancer,Stage III,Chemo + Radiation,7.4,Deceased
+622,67,Male,Kolkata,Tata Medical Center,Stomach Cancer,Stage I,Surgery,21.1,Alive
+623,63,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Ovarian Cancer,Stage III,Radiation,21.1,Deceased
+624,64,Male,Chennai,Adyar Cancer Institute,Prostate Cancer,Stage III,Palliative Care,29.8,Alive
+625,41,Female,New Delhi,AIIMS,Breast Cancer,Stage III,Chemo + Radiation,3,Deceased
+626,43,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Cervical Cancer,Stage IV,Chemotherapy,2.6,Deceased
+627,38,Female,Chandigarh,PGIMER,Colorectal Cancer,Stage IV,Chemotherapy,5.9,Deceased
+628,80,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Oral Cancer,Stage III,Surgery + Chemotherapy,20,Deceased
+629,33,Female,Thiruvananthapuram,Regional Cancer Centre,Colorectal Cancer,Stage IV,Chemotherapy,14.6,Deceased
+630,31,Male,New Delhi,AIIMS,Lung Cancer,Stage III,Palliative Care,7.9,Deceased
+631,51,Female,Kolkata,Tata Medical Center,Oral Cancer,Stage I,Surgery,26.2,Alive
+632,83,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Stomach Cancer,Stage II,Targeted Therapy,17.4,Alive
+633,59,Female,Chandigarh,PGIMER,Oral Cancer,Stage III,Surgery,2.5,Deceased
+634,66,Male,Thiruvananthapuram,Regional Cancer Centre,Colorectal Cancer,Stage III,Palliative Care,7,Deceased
+635,30,Female,Ahmedabad,Gujarat Cancer Research Institute,Breast Cancer,Stage II,Chemo + Radiation,27.3,Alive
+636,48,Female,Kolkata,Tata Medical Center,Breast Cancer,Stage III,Chemotherapy,39.1,Alive
+637,52,Male,Ahmedabad,Gujarat Cancer Research Institute,Oral Cancer,Stage III,Surgery + Chemotherapy,52.5,Alive
+638,68,Female,Kolkata,Tata Medical Center,Stomach Cancer,Stage III,Chemotherapy,6.2,Deceased
+639,45,Female,Mumbai,Tata Memorial Hospital,Breast Cancer,Stage II,Targeted Therapy,44.8,Alive
+640,50,Female,Thiruvananthapuram,Regional Cancer Centre,Lung Cancer,Stage I,Surgery,5.8,Deceased
+641,47,Female,Chennai,Adyar Cancer Institute,Colorectal Cancer,Stage I,Surgery,11.5,Deceased
+642,48,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Breast Cancer,Stage IV,Targeted Therapy,30.4,Deceased
+643,34,Female,Kolkata,Tata Medical Center,Cervical Cancer,Stage III,Chemo + Radiation,5.9,Deceased
+644,66,Male,Thiruvananthapuram,Regional Cancer Centre,Lung Cancer,Stage I,Surgery,3.9,Deceased
+645,39,Male,Mumbai,Tata Memorial Hospital,Leukemia,Stage II,Surgery,32,Alive
+646,50,Female,New Delhi,Rajiv Gandhi Cancer Institute,Breast Cancer,Stage II,Surgery + Chemotherapy,28.8,Alive
+647,55,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Lung Cancer,Stage II,Chemo + Radiation,3.3,Deceased
+648,54,Female,Ahmedabad,Gujarat Cancer Research Institute,Cervical Cancer,Stage IV,Targeted Therapy,27.2,Deceased
+649,59,Female,Ahmedabad,Gujarat Cancer Research Institute,Oral Cancer,Stage I,Surgery,11,Alive
+650,72,Female,Ahmedabad,Gujarat Cancer Research Institute,Breast Cancer,Stage III,Chemotherapy,50.4,Alive
+651,28,Female,New Delhi,AIIMS,Breast Cancer,Stage IV,Chemotherapy,8.4,Deceased
+652,50,Female,Ahmedabad,Gujarat Cancer Research Institute,Breast Cancer,Stage IV,Chemotherapy,4.9,Deceased
+653,53,Female,Mumbai,Tata Memorial Hospital,Breast Cancer,Stage III,Palliative Care,20.9,Alive
+654,51,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Colorectal Cancer,Stage III,Surgery + Chemotherapy,10.3,Deceased
+655,39,Female,Ahmedabad,Gujarat Cancer Research Institute,Stomach Cancer,Stage III,Targeted Therapy,4.2,Deceased
+656,34,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Breast Cancer,Stage III,Targeted Therapy,8,Deceased
+657,62,Female,Thiruvananthapuram,Regional Cancer Centre,Breast Cancer,Stage III,Surgery,4.8,Deceased
+658,75,Female,New Delhi,Rajiv Gandhi Cancer Institute,Stomach Cancer,Stage III,Chemotherapy,21.2,Deceased
+659,51,Male,Chennai,Adyar Cancer Institute,Colorectal Cancer,Stage III,Chemo + Radiation,50.3,Alive
+660,56,Female,Mumbai,Tata Memorial Hospital,Breast Cancer,Stage II,Palliative Care,29.7,Alive
+661,1,Male,Chennai,Adyar Cancer Institute,Leukemia,Stage IV,Palliative Care,21.4,Deceased
+662,44,Female,Kolkata,Tata Medical Center,Colorectal Cancer,Stage II,Surgery + Chemotherapy,21.5,Alive
+663,59,Female,Chandigarh,PGIMER,Breast Cancer,Stage III,Palliative Care,16,Deceased
+664,67,Female,Mumbai,Tata Memorial Hospital,Cervical Cancer,Stage IV,Chemotherapy,22,Deceased
+665,71,Male,Kolkata,Tata Medical Center,Stomach Cancer,Stage IV,Palliative Care,4.6,Deceased
+666,43,Female,Chandigarh,PGIMER,Cervical Cancer,Stage I,Surgery,46.6,Alive
+667,55,Female,Thiruvananthapuram,Regional Cancer Centre,Oral Cancer,Stage I,Surgery,21.4,Alive
+668,52,Male,Mumbai,Tata Memorial Hospital,Prostate Cancer,Stage I,Surgery,6.1,Alive
+669,47,Female,Ahmedabad,Gujarat Cancer Research Institute,Stomach Cancer,Stage III,Chemotherapy,6.9,Deceased
+670,66,Male,Kolkata,Tata Medical Center,Lung Cancer,Stage II,Chemotherapy,19.9,Deceased
+671,37,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Breast Cancer,Stage II,Radiation,14.8,Deceased
+672,52,Female,Thiruvananthapuram,Regional Cancer Centre,Cervical Cancer,Stage II,Palliative Care,51.4,Alive
+673,54,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Stomach Cancer,Stage IV,Targeted Therapy,12.9,Deceased
+674,52,Female,Ahmedabad,Gujarat Cancer Research Institute,Breast Cancer,Stage III,Palliative Care,33.4,Alive
+675,69,Female,Chennai,Adyar Cancer Institute,Cervical Cancer,Stage I,Surgery,32.2,Alive
+676,59,Male,Ahmedabad,Gujarat Cancer Research Institute,Oral Cancer,Stage III,Surgery + Chemotherapy,6.9,Alive
+677,49,Male,Kolkata,Tata Medical Center,Leukemia,Stage II,Chemo + Radiation,2.8,Deceased
+678,58,Female,New Delhi,AIIMS,Breast Cancer,Stage III,Surgery,38.6,Alive
+679,45,Female,Chennai,Adyar Cancer Institute,Breast Cancer,Stage III,Chemotherapy,24.7,Deceased
+680,47,Female,Chandigarh,PGIMER,Breast Cancer,Stage I,Surgery,5.1,Deceased
+681,48,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Lung Cancer,Stage IV,Targeted Therapy,15.8,Deceased
+682,65,Female,Thiruvananthapuram,Regional Cancer Centre,Breast Cancer,Stage IV,Chemotherapy,21.7,Alive
+683,70,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Lung Cancer,Stage IV,Palliative Care,3.1,Deceased
+684,50,Female,New Delhi,AIIMS,Breast Cancer,Stage III,Targeted Therapy,16.5,Alive
+685,81,Male,Chennai,Adyar Cancer Institute,Oral Cancer,Stage II,Targeted Therapy,40.5,Alive
+686,73,Female,New Delhi,AIIMS,Lung Cancer,Stage II,Chemo + Radiation,16.8,Deceased
+687,66,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Stomach Cancer,Stage III,Chemo + Radiation,37.4,Deceased
+688,66,Male,New Delhi,AIIMS,Lung Cancer,Stage I,Surgery,16.7,Alive
+689,45,Female,New Delhi,Rajiv Gandhi Cancer Institute,Breast Cancer,Stage II,Radiation,37.7,Alive
+690,62,Female,New Delhi,Rajiv Gandhi Cancer Institute,Breast Cancer,Stage IV,Palliative Care,9.6,Deceased
+691,48,Female,Thiruvananthapuram,Regional Cancer Centre,Lung Cancer,Stage III,Surgery + Chemotherapy,9.3,Deceased
+692,28,Male,New Delhi,Rajiv Gandhi Cancer Institute,Oral Cancer,Stage IV,Chemotherapy,1.4,Deceased
+693,63,Female,New Delhi,AIIMS,Colorectal Cancer,Stage I,Surgery,14.3,Deceased
+694,41,Female,Chennai,Adyar Cancer Institute,Breast Cancer,Stage II,Chemotherapy,24.6,Deceased
+695,45,Male,Hyderabad,Basavatarakam Indo American Cancer Hospital,Oral Cancer,Stage I,Radiation,38.1,Alive
+696,63,Female,Chandigarh,PGIMER,Breast Cancer,Stage IV,Palliative Care,21.5,Deceased
+697,35,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Cervical Cancer,Stage III,Chemo + Radiation,44.3,Deceased
+698,49,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Cervical Cancer,Stage IV,Chemotherapy,23.1,Alive
+699,50,Female,Mumbai,Tata Memorial Hospital,Oral Cancer,Stage III,Surgery + Chemotherapy,11.1,Alive
+700,50,Female,Chandigarh,PGIMER,Breast Cancer,Stage IV,Palliative Care,15.6,Deceased
+701,24,Female,Chennai,Adyar Cancer Institute,Breast Cancer,Stage II,Surgery + Chemotherapy,11.8,Alive
+702,61,Male,Hyderabad,Basavatarakam Indo American Cancer Hospital,Lung Cancer,Stage IV,Palliative Care,41.8,Deceased
+703,35,Male,Kolkata,Tata Medical Center,Oral Cancer,Stage II,Targeted Therapy,21.6,Alive
+704,53,Female,Chennai,Adyar Cancer Institute,Cervical Cancer,Stage IV,Chemotherapy,28.8,Deceased
+705,45,Female,Chennai,Adyar Cancer Institute,Breast Cancer,Stage II,Chemotherapy,52.6,Alive
+706,56,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Colorectal Cancer,Stage IV,Palliative Care,40.4,Deceased
+707,61,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Colorectal Cancer,Stage IV,Targeted Therapy,26.1,Deceased
+708,50,Female,Kolkata,Tata Medical Center,Breast Cancer,Stage I,Surgery,32,Alive
+709,95,Female,New Delhi,Rajiv Gandhi Cancer Institute,Colorectal Cancer,Stage II,Palliative Care,43.1,Alive
+710,36,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Oral Cancer,Stage I,Radiation,5.5,Alive
+711,40,Male,Thiruvananthapuram,Regional Cancer Centre,Oral Cancer,Stage IV,Palliative Care,3,Deceased
+712,71,Male,Chandigarh,PGIMER,Oral Cancer,Stage I,Surgery,15.5,Alive
+713,51,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Oral Cancer,Stage III,Chemo + Radiation,3.9,Deceased
+714,46,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Colorectal Cancer,Stage IV,Targeted Therapy,15.1,Deceased
+715,36,Female,Mumbai,Tata Memorial Hospital,Cervical Cancer,Stage III,Chemo + Radiation,6.8,Deceased
+716,43,Female,Chennai,Adyar Cancer Institute,Ovarian Cancer,Stage III,Targeted Therapy,47,Alive
+717,55,Female,Thiruvananthapuram,Regional Cancer Centre,Lung Cancer,Stage III,Targeted Therapy,2,Deceased
+718,32,Male,Chennai,Adyar Cancer Institute,Oral Cancer,Stage II,Surgery,3.6,Deceased
+719,69,Female,Thiruvananthapuram,Regional Cancer Centre,Lung Cancer,Stage III,Surgery + Chemotherapy,9,Deceased
+720,40,Female,Chandigarh,PGIMER,Oral Cancer,Stage II,Chemo + Radiation,3.7,Deceased
+721,57,Female,Chandigarh,PGIMER,Ovarian Cancer,Stage I,Surgery,8,Alive
+722,55,Male,Chennai,Adyar Cancer Institute,Lung Cancer,Stage III,Palliative Care,9.3,Alive
+723,81,Male,Hyderabad,Basavatarakam Indo American Cancer Hospital,Oral Cancer,Stage I,Surgery,21.7,Deceased
+724,58,Female,Kolkata,Tata Medical Center,Breast Cancer,Stage III,Chemo + Radiation,6.3,Deceased
+725,53,Female,Kolkata,Tata Medical Center,Breast Cancer,Stage II,Radiation,28.5,Alive
+726,42,Male,Thiruvananthapuram,Regional Cancer Centre,Leukemia,Stage IV,Chemotherapy,15.7,Deceased
+727,64,Female,Mumbai,Tata Memorial Hospital,Cervical Cancer,Stage III,Targeted Therapy,17.9,Deceased
+728,50,Female,Kolkata,Tata Medical Center,Leukemia,Stage IV,Targeted Therapy,21.4,Deceased
+729,30,Female,Chennai,Adyar Cancer Institute,Oral Cancer,Stage II,Chemotherapy,28.7,Alive
+730,70,Male,Kolkata,Tata Medical Center,Prostate Cancer,Stage IV,Targeted Therapy,1.2,Deceased
+731,47,Female,Thiruvananthapuram,Regional Cancer Centre,Breast Cancer,Stage III,Palliative Care,38.9,Alive
+732,44,Female,New Delhi,AIIMS,Breast Cancer,Stage II,Targeted Therapy,41.1,Alive
+733,34,Female,Thiruvananthapuram,Regional Cancer Centre,Breast Cancer,Stage IV,Targeted Therapy,11,Deceased
+734,66,Male,Mumbai,Tata Memorial Hospital,Prostate Cancer,Stage III,Chemo + Radiation,5.3,Deceased
+735,31,Female,Chennai,Adyar Cancer Institute,Breast Cancer,Stage II,Radiation,8.1,Alive
+736,36,Female,Mumbai,Tata Memorial Hospital,Breast Cancer,Stage III,Radiation,32.3,Deceased
+737,53,Female,New Delhi,AIIMS,Breast Cancer,Stage IV,Palliative Care,26.4,Deceased
+738,62,Male,New Delhi,Rajiv Gandhi Cancer Institute,Oral Cancer,Stage III,Surgery + Chemotherapy,52.3,Deceased
+739,73,Female,Chennai,Adyar Cancer Institute,Cervical Cancer,Stage III,Surgery,3,Deceased
+740,54,Female,Ahmedabad,Gujarat Cancer Research Institute,Ovarian Cancer,Stage III,Surgery + Chemotherapy,11.6,Deceased
+741,49,Female,Ahmedabad,Gujarat Cancer Research Institute,Oral Cancer,Stage IV,Palliative Care,20.8,Deceased
+742,64,Female,Ahmedabad,Gujarat Cancer Research Institute,Colorectal Cancer,Stage II,Surgery + Chemotherapy,51.8,Alive
+743,44,Female,Chandigarh,PGIMER,Cervical Cancer,Stage III,Targeted Therapy,16.4,Alive
+744,43,Male,Chennai,Adyar Cancer Institute,Colorectal Cancer,Stage IV,Chemotherapy,5.2,Deceased
+745,63,Female,Thiruvananthapuram,Regional Cancer Centre,Cervical Cancer,Stage I,Radiation,28.4,Alive
+746,59,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Oral Cancer,Stage III,Radiation,29.8,Deceased
+747,69,Male,Mumbai,Tata Memorial Hospital,Lung Cancer,Stage III,Chemo + Radiation,5.4,Deceased
+748,63,Female,Mumbai,Tata Memorial Hospital,Oral Cancer,Stage III,Chemotherapy,28.1,Deceased
+749,56,Male,Chennai,Adyar Cancer Institute,Lung Cancer,Stage II,Surgery,4.7,Deceased
+750,48,Female,New Delhi,AIIMS,Ovarian Cancer,Stage II,Surgery + Chemotherapy,9.7,Deceased
+751,59,Male,Kolkata,Tata Medical Center,Leukemia,Stage III,Palliative Care,38.6,Deceased
+752,86,Female,Ahmedabad,Gujarat Cancer Research Institute,Lung Cancer,Stage III,Surgery + Chemotherapy,15.3,Alive
+753,65,Female,Thiruvananthapuram,Regional Cancer Centre,Breast Cancer,Stage I,Surgery,44.6,Alive
+754,53,Male,Ahmedabad,Gujarat Cancer Research Institute,Colorectal Cancer,Stage I,Radiation,28.9,Alive
+755,41,Male,Thiruvananthapuram,Regional Cancer Centre,Lung Cancer,Stage I,Surgery,12.4,Deceased
+756,75,Female,Kolkata,Tata Medical Center,Lung Cancer,Stage III,Surgery + Chemotherapy,11.5,Deceased
+757,43,Male,New Delhi,AIIMS,Leukemia,Stage IV,Palliative Care,2.1,Deceased
+758,7,Female,Mumbai,Tata Memorial Hospital,Leukemia,Stage III,Targeted Therapy,32.7,Deceased
+759,63,Female,Chandigarh,PGIMER,Breast Cancer,Stage I,Surgery,46.8,Alive
+760,67,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Cervical Cancer,Stage III,Radiation,1,Deceased
+761,46,Female,Kolkata,Tata Medical Center,Breast Cancer,Stage II,Chemotherapy,9.8,Deceased
+762,68,Male,Chennai,Adyar Cancer Institute,Prostate Cancer,Stage III,Chemo + Radiation,12,Deceased
+763,52,Female,Thiruvananthapuram,Regional Cancer Centre,Breast Cancer,Stage IV,Palliative Care,52.8,Alive
+764,68,Male,Thiruvananthapuram,Regional Cancer Centre,Prostate Cancer,Stage IV,Chemotherapy,8.3,Alive
+765,49,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Lung Cancer,Stage III,Targeted Therapy,10.7,Deceased
+766,48,Female,Ahmedabad,Gujarat Cancer Research Institute,Breast Cancer,Stage I,Surgery,18.6,Alive
+767,50,Female,New Delhi,AIIMS,Cervical Cancer,Stage II,Chemotherapy,26.5,Alive
+768,48,Female,New Delhi,AIIMS,Oral Cancer,Stage IV,Palliative Care,47.1,Alive
+769,49,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Ovarian Cancer,Stage II,Surgery + Chemotherapy,30.6,Deceased
+770,53,Female,New Delhi,Rajiv Gandhi Cancer Institute,Ovarian Cancer,Stage IV,Palliative Care,35.2,Deceased
+771,66,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Colorectal Cancer,Stage IV,Palliative Care,9.6,Deceased
+772,64,Male,Thiruvananthapuram,Regional Cancer Centre,Colorectal Cancer,Stage III,Surgery,9.5,Deceased
+773,58,Male,Thiruvananthapuram,Regional Cancer Centre,Lung Cancer,Stage IV,Palliative Care,5.2,Deceased
+774,60,Female,New Delhi,Rajiv Gandhi Cancer Institute,Cervical Cancer,Stage II,Palliative Care,27.1,Alive
+775,41,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Oral Cancer,Stage IV,Chemotherapy,23.9,Deceased
+776,50,Female,Chandigarh,PGIMER,Breast Cancer,Stage II,Surgery + Chemotherapy,49.3,Alive
+777,64,Female,New Delhi,Rajiv Gandhi Cancer Institute,Cervical Cancer,Stage II,Targeted Therapy,21.8,Alive
+778,48,Male,Mumbai,Tata Memorial Hospital,Stomach Cancer,Stage I,Surgery,11.3,Deceased
+779,44,Male,Chandigarh,PGIMER,Oral Cancer,Stage IV,Targeted Therapy,10.7,Deceased
+780,58,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Prostate Cancer,Stage I,Radiation,21.2,Alive
+781,75,Female,New Delhi,Rajiv Gandhi Cancer Institute,Oral Cancer,Stage IV,Chemotherapy,8.7,Deceased
+782,51,Female,New Delhi,AIIMS,Stomach Cancer,Stage II,Palliative Care,26.7,Deceased
+783,72,Female,Ahmedabad,Gujarat Cancer Research Institute,Stomach Cancer,Stage III,Targeted Therapy,28.1,Alive
+784,65,Female,New Delhi,Rajiv Gandhi Cancer Institute,Breast Cancer,Stage I,Surgery,32.4,Alive
+785,47,Female,Mumbai,Tata Memorial Hospital,Cervical Cancer,Stage II,Surgery,32.9,Alive
+786,49,Female,Thiruvananthapuram,Regional Cancer Centre,Breast Cancer,Stage I,Radiation,21.5,Alive
+787,68,Male,Hyderabad,Basavatarakam Indo American Cancer Hospital,Lung Cancer,Stage IV,Chemotherapy,5.5,Deceased
+788,52,Female,Ahmedabad,Gujarat Cancer Research Institute,Cervical Cancer,Stage IV,Chemotherapy,30.5,Deceased
+789,47,Female,Thiruvananthapuram,Regional Cancer Centre,Breast Cancer,Stage III,Chemo + Radiation,27.2,Alive
+790,53,Female,Thiruvananthapuram,Regional Cancer Centre,Ovarian Cancer,Stage I,Surgery,10.7,Alive
+791,58,Female,Thiruvananthapuram,Regional Cancer Centre,Oral Cancer,Stage II,Surgery,19.7,Alive
+792,69,Male,Hyderabad,Basavatarakam Indo American Cancer Hospital,Colorectal Cancer,Stage II,Surgery,12,Deceased
+793,40,Male,New Delhi,AIIMS,Oral Cancer,Stage III,Radiation,33.2,Deceased
+794,59,Male,Chennai,Adyar Cancer Institute,Lung Cancer,Stage III,Surgery + Chemotherapy,17.1,Deceased
+795,71,Female,Ahmedabad,Gujarat Cancer Research Institute,Ovarian Cancer,Stage II,Palliative Care,19.5,Alive
+796,52,Female,New Delhi,Rajiv Gandhi Cancer Institute,Cervical Cancer,Stage II,Surgery,4.6,Deceased
+797,48,Female,Mumbai,Tata Memorial Hospital,Breast Cancer,Stage III,Surgery,4.3,Deceased
+798,91,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Colorectal Cancer,Stage III,Palliative Care,12.4,Deceased
+799,68,Female,Ahmedabad,Gujarat Cancer Research Institute,Colorectal Cancer,Stage IV,Chemotherapy,4.3,Deceased
+800,58,Female,Chandigarh,PGIMER,Stomach Cancer,Stage III,Surgery + Chemotherapy,13.5,Deceased
+801,71,Female,Mumbai,Tata Memorial Hospital,Lung Cancer,Stage IV,Chemotherapy,25.5,Deceased
+802,31,Female,Chandigarh,PGIMER,Oral Cancer,Stage III,Surgery + Chemotherapy,38.3,Alive
+803,66,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Breast Cancer,Stage II,Palliative Care,32.8,Alive
+804,50,Male,Hyderabad,Basavatarakam Indo American Cancer Hospital,Colorectal Cancer,Stage III,Targeted Therapy,20.8,Deceased
+805,40,Female,Kolkata,Tata Medical Center,Stomach Cancer,Stage IV,Targeted Therapy,21,Deceased
+806,9,Male,Mumbai,Tata Memorial Hospital,Leukemia,Stage III,Chemotherapy,46.3,Deceased
+807,57,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Lung Cancer,Stage II,Chemotherapy,49.8,Alive
+808,40,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Leukemia,Stage III,Surgery,31.1,Deceased
+809,57,Male,New Delhi,Rajiv Gandhi Cancer Institute,Colorectal Cancer,Stage II,Chemotherapy,52.6,Alive
+810,56,Male,Ahmedabad,Gujarat Cancer Research Institute,Prostate Cancer,Stage III,Palliative Care,28.4,Alive
+811,72,Male,Kolkata,Tata Medical Center,Prostate Cancer,Stage III,Targeted Therapy,34.5,Alive
+812,60,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Prostate Cancer,Stage II,Surgery + Chemotherapy,12,Alive
+813,36,Female,New Delhi,Rajiv Gandhi Cancer Institute,Breast Cancer,Stage IV,Palliative Care,4.2,Deceased
+814,66,Male,Mumbai,Tata Memorial Hospital,Prostate Cancer,Stage IV,Palliative Care,28.4,Deceased
+815,14,Female,Ahmedabad,Gujarat Cancer Research Institute,Breast Cancer,Stage I,Radiation,43.7,Alive
+816,44,Female,Thiruvananthapuram,Regional Cancer Centre,Cervical Cancer,Stage II,Surgery,50.3,Alive
+817,68,Male,Kolkata,Tata Medical Center,Stomach Cancer,Stage I,Radiation,5.9,Deceased
+818,61,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Breast Cancer,Stage II,Chemo + Radiation,28.8,Alive
+819,45,Female,Thiruvananthapuram,Regional Cancer Centre,Ovarian Cancer,Stage III,Chemotherapy,7.7,Deceased
+820,54,Female,Thiruvananthapuram,Regional Cancer Centre,Breast Cancer,Stage II,Radiation,37.5,Alive
+821,83,Female,Chandigarh,PGIMER,Stomach Cancer,Stage I,Surgery,9.5,Deceased
+822,63,Male,Kolkata,Tata Medical Center,Prostate Cancer,Stage IV,Palliative Care,25.5,Deceased
+823,48,Female,Mumbai,Tata Memorial Hospital,Breast Cancer,Stage II,Radiation,45.4,Alive
+824,44,Male,Chandigarh,PGIMER,Oral Cancer,Stage II,Surgery + Chemotherapy,6.6,Deceased
+825,64,Male,New Delhi,AIIMS,Lung Cancer,Stage III,Palliative Care,13,Deceased
+826,68,Female,Chandigarh,PGIMER,Cervical Cancer,Stage III,Chemo + Radiation,7.1,Alive
+827,66,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Breast Cancer,Stage I,Surgery,36.3,Alive
+828,47,Female,Ahmedabad,Gujarat Cancer Research Institute,Cervical Cancer,Stage I,Surgery,10,Deceased
+829,74,Male,New Delhi,Rajiv Gandhi Cancer Institute,Colorectal Cancer,Stage III,Radiation,10.7,Deceased
+830,72,Male,Mumbai,Tata Memorial Hospital,Lung Cancer,Stage IV,Targeted Therapy,4.8,Deceased
+831,44,Male,New Delhi,AIIMS,Oral Cancer,Stage IV,Chemotherapy,28.9,Deceased
+832,48,Female,Thiruvananthapuram,Regional Cancer Centre,Oral Cancer,Stage IV,Palliative Care,7.1,Deceased
+833,33,Female,Mumbai,Tata Memorial Hospital,Breast Cancer,Stage IV,Targeted Therapy,51.3,Alive
+834,44,Male,Mumbai,Tata Memorial Hospital,Colorectal Cancer,Stage IV,Palliative Care,21.6,Deceased
+835,69,Female,Mumbai,Tata Memorial Hospital,Oral Cancer,Stage I,Surgery,45.6,Alive
+836,24,Female,Mumbai,Tata Memorial Hospital,Leukemia,Stage III,Targeted Therapy,5.4,Deceased
+837,44,Female,New Delhi,AIIMS,Oral Cancer,Stage I,Radiation,26.9,Alive
+838,62,Female,Chandigarh,PGIMER,Colorectal Cancer,Stage IV,Palliative Care,18.1,Deceased
+839,55,Female,New Delhi,Rajiv Gandhi Cancer Institute,Cervical Cancer,Stage II,Radiation,52.8,Alive
+840,21,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Oral Cancer,Stage III,Chemotherapy,28.4,Alive
+841,48,Female,Ahmedabad,Gujarat Cancer Research Institute,Breast Cancer,Stage IV,Palliative Care,5,Deceased
+842,59,Female,New Delhi,Rajiv Gandhi Cancer Institute,Breast Cancer,Stage I,Surgery,6.1,Alive
+843,52,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Cervical Cancer,Stage II,Palliative Care,24.5,Alive
+844,50,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Cervical Cancer,Stage I,Radiation,36,Alive
+845,62,Female,New Delhi,Rajiv Gandhi Cancer Institute,Lung Cancer,Stage I,Surgery,19,Deceased
+846,56,Female,Kolkata,Tata Medical Center,Breast Cancer,Stage III,Surgery + Chemotherapy,9.8,Deceased
+847,55,Female,Mumbai,Tata Memorial Hospital,Breast Cancer,Stage III,Radiation,38.5,Deceased
+848,60,Female,Ahmedabad,Gujarat Cancer Research Institute,Cervical Cancer,Stage II,Surgery,30.8,Deceased
+849,31,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Leukemia,Stage I,Surgery,4.4,Deceased
+850,60,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Oral Cancer,Stage I,Surgery,35.5,Alive
+851,57,Female,Chandigarh,PGIMER,Breast Cancer,Stage II,Palliative Care,46.6,Alive
+852,50,Female,Mumbai,Tata Memorial Hospital,Colorectal Cancer,Stage II,Targeted Therapy,17.9,Deceased
+853,53,Female,New Delhi,Rajiv Gandhi Cancer Institute,Lung Cancer,Stage III,Targeted Therapy,8.5,Deceased
+854,54,Male,Hyderabad,Basavatarakam Indo American Cancer Hospital,Lung Cancer,Stage IV,Palliative Care,24.5,Deceased
+855,69,Male,Hyderabad,Basavatarakam Indo American Cancer Hospital,Lung Cancer,Stage II,Surgery,34.2,Deceased
+856,52,Female,Mumbai,Tata Memorial Hospital,Stomach Cancer,Stage I,Radiation,5.5,Deceased
+857,45,Male,Mumbai,Tata Memorial Hospital,Oral Cancer,Stage III,Chemo + Radiation,6.2,Deceased
+858,44,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Breast Cancer,Stage IV,Chemotherapy,21.1,Deceased
+859,61,Female,Chennai,Adyar Cancer Institute,Lung Cancer,Stage III,Chemo + Radiation,5.8,Alive
+860,45,Female,New Delhi,Rajiv Gandhi Cancer Institute,Breast Cancer,Stage III,Chemo + Radiation,45.5,Alive
+861,40,Male,New Delhi,Rajiv Gandhi Cancer Institute,Oral Cancer,Stage II,Targeted Therapy,21.7,Deceased
+862,62,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Oral Cancer,Stage III,Radiation,13,Alive
+863,50,Male,New Delhi,AIIMS,Oral Cancer,Stage IV,Palliative Care,8.4,Deceased
+864,43,Female,Mumbai,Tata Memorial Hospital,Breast Cancer,Stage II,Palliative Care,22.2,Alive
+865,55,Female,New Delhi,Rajiv Gandhi Cancer Institute,Breast Cancer,Stage I,Surgery,14.4,Alive
+866,61,Male,Ahmedabad,Gujarat Cancer Research Institute,Lung Cancer,Stage III,Surgery,20.2,Deceased
+867,47,Female,Ahmedabad,Gujarat Cancer Research Institute,Cervical Cancer,Stage IV,Targeted Therapy,6.7,Deceased
+868,41,Female,Thiruvananthapuram,Regional Cancer Centre,Breast Cancer,Stage III,Chemo + Radiation,11.1,Alive
+869,50,Female,New Delhi,Rajiv Gandhi Cancer Institute,Cervical Cancer,Stage IV,Chemotherapy,1.9,Deceased
+870,54,Male,Chennai,Adyar Cancer Institute,Lung Cancer,Stage III,Palliative Care,22.2,Deceased
+871,59,Female,Mumbai,Tata Memorial Hospital,Cervical Cancer,Stage IV,Chemotherapy,46.6,Alive
+872,50,Male,Thiruvananthapuram,Regional Cancer Centre,Lung Cancer,Stage III,Palliative Care,1.2,Deceased
+873,65,Female,New Delhi,Rajiv Gandhi Cancer Institute,Colorectal Cancer,Stage III,Targeted Therapy,4,Deceased
+874,50,Female,New Delhi,AIIMS,Ovarian Cancer,Stage IV,Palliative Care,6.1,Deceased
+875,55,Female,New Delhi,AIIMS,Cervical Cancer,Stage II,Targeted Therapy,51.1,Alive
+876,60,Male,Chennai,Adyar Cancer Institute,Prostate Cancer,Stage II,Palliative Care,39.1,Alive
+877,33,Female,Chennai,Adyar Cancer Institute,Leukemia,Stage II,Surgery,42.9,Deceased
+878,41,Female,Kolkata,Tata Medical Center,Breast Cancer,Stage III,Surgery,10.2,Alive
+879,60,Female,Ahmedabad,Gujarat Cancer Research Institute,Stomach Cancer,Stage II,Chemotherapy,1.6,Deceased
+880,48,Female,Chennai,Adyar Cancer Institute,Oral Cancer,Stage II,Radiation,44.2,Alive
+881,40,Female,Thiruvananthapuram,Regional Cancer Centre,Oral Cancer,Stage IV,Chemotherapy,5,Deceased
+882,45,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Stomach Cancer,Stage I,Surgery,39.7,Alive
+883,50,Female,New Delhi,AIIMS,Breast Cancer,Stage III,Targeted Therapy,16.1,Deceased
+884,55,Female,Ahmedabad,Gujarat Cancer Research Institute,Breast Cancer,Stage II,Targeted Therapy,12.2,Alive
+885,65,Male,New Delhi,AIIMS,Oral Cancer,Stage III,Chemotherapy,38.5,Deceased
+886,47,Female,Chennai,Adyar Cancer Institute,Lung Cancer,Stage IV,Palliative Care,19.7,Deceased
+887,47,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Breast Cancer,Stage IV,Targeted Therapy,1.6,Deceased
+888,51,Female,Chandigarh,PGIMER,Cervical Cancer,Stage III,Surgery + Chemotherapy,26.1,Deceased
+889,53,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Stomach Cancer,Stage III,Targeted Therapy,11.4,Deceased
+890,66,Male,New Delhi,AIIMS,Stomach Cancer,Stage III,Surgery + Chemotherapy,3.6,Deceased
+891,50,Male,Chandigarh,PGIMER,Oral Cancer,Stage III,Surgery,24.1,Deceased
+892,42,Male,Chandigarh,PGIMER,Oral Cancer,Stage III,Surgery,3.2,Deceased
+893,62,Female,Chennai,Adyar Cancer Institute,Breast Cancer,Stage IV,Chemotherapy,33.5,Deceased
+894,62,Male,Hyderabad,Basavatarakam Indo American Cancer Hospital,Stomach Cancer,Stage I,Radiation,34.2,Alive
+895,32,Female,New Delhi,AIIMS,Breast Cancer,Stage II,Radiation,21.4,Alive
+896,40,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Leukemia,Stage III,Surgery,5.1,Deceased
+897,38,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Breast Cancer,Stage III,Targeted Therapy,44.7,Alive
+898,52,Female,Mumbai,Tata Memorial Hospital,Ovarian Cancer,Stage I,Surgery,17.6,Alive
+899,42,Female,Chennai,Adyar Cancer Institute,Cervical Cancer,Stage IV,Palliative Care,5.1,Deceased
+900,48,Male,New Delhi,Rajiv Gandhi Cancer Institute,Lung Cancer,Stage II,Surgery + Chemotherapy,6.7,Deceased
+901,70,Male,Kolkata,Tata Medical Center,Stomach Cancer,Stage II,Surgery + Chemotherapy,6.6,Deceased
+902,47,Male,Ahmedabad,Gujarat Cancer Research Institute,Lung Cancer,Stage III,Radiation,3.5,Deceased
+903,23,Female,Thiruvananthapuram,Regional Cancer Centre,Breast Cancer,Stage III,Chemo + Radiation,3,Deceased
+904,44,Female,Ahmedabad,Gujarat Cancer Research Institute,Cervical Cancer,Stage IV,Chemotherapy,25,Deceased
+905,21,Female,Mumbai,Tata Memorial Hospital,Leukemia,Stage IV,Chemotherapy,32,Deceased
+906,59,Female,Chennai,Adyar Cancer Institute,Breast Cancer,Stage III,Chemotherapy,11,Alive
+907,47,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Breast Cancer,Stage III,Palliative Care,6.5,Deceased
+908,51,Male,Chandigarh,PGIMER,Stomach Cancer,Stage II,Chemotherapy,18.4,Deceased
+909,55,Male,Mumbai,Tata Memorial Hospital,Lung Cancer,Stage I,Surgery,29.9,Deceased
+910,64,Female,Thiruvananthapuram,Regional Cancer Centre,Lung Cancer,Stage III,Chemotherapy,10,Deceased
+911,30,Male,Ahmedabad,Gujarat Cancer Research Institute,Lung Cancer,Stage III,Chemo + Radiation,1.4,Deceased
+912,62,Male,Mumbai,Tata Memorial Hospital,Prostate Cancer,Stage III,Chemo + Radiation,26.7,Alive
+913,54,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Lung Cancer,Stage IV,Chemotherapy,3.8,Deceased
+914,87,Female,Mumbai,Tata Memorial Hospital,Lung Cancer,Stage IV,Targeted Therapy,15.2,Deceased
+915,57,Male,Ahmedabad,Gujarat Cancer Research Institute,Oral Cancer,Stage IV,Chemotherapy,14.7,Deceased
+916,55,Male,Ahmedabad,Gujarat Cancer Research Institute,Oral Cancer,Stage I,Radiation,32.4,Alive
+917,59,Female,Kolkata,Tata Medical Center,Cervical Cancer,Stage III,Chemotherapy,28.5,Deceased
+918,90,Female,Chennai,Adyar Cancer Institute,Stomach Cancer,Stage IV,Palliative Care,24.3,Deceased
+919,57,Female,New Delhi,Rajiv Gandhi Cancer Institute,Breast Cancer,Stage I,Surgery,46.5,Alive
+920,50,Female,New Delhi,Rajiv Gandhi Cancer Institute,Breast Cancer,Stage I,Surgery,21.3,Alive
+921,70,Male,Ahmedabad,Gujarat Cancer Research Institute,Oral Cancer,Stage I,Radiation,25.1,Alive
+922,50,Female,Chandigarh,PGIMER,Cervical Cancer,Stage IV,Chemotherapy,14.4,Deceased
+923,66,Female,Mumbai,Tata Memorial Hospital,Breast Cancer,Stage III,Surgery + Chemotherapy,26.8,Alive
+924,50,Female,New Delhi,AIIMS,Breast Cancer,Stage II,Palliative Care,38.4,Alive
+925,25,Female,Mumbai,Tata Memorial Hospital,Breast Cancer,Stage III,Chemotherapy,4.9,Deceased
+926,73,Male,Thiruvananthapuram,Regional Cancer Centre,Colorectal Cancer,Stage III,Chemo + Radiation,47.1,Alive
+927,57,Male,Chandigarh,PGIMER,Oral Cancer,Stage III,Targeted Therapy,20.5,Deceased
+928,63,Male,Chandigarh,PGIMER,Lung Cancer,Stage II,Chemotherapy,51.6,Alive
+929,16,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Breast Cancer,Stage I,Surgery,45,Alive
+930,50,Female,Ahmedabad,Gujarat Cancer Research Institute,Breast Cancer,Stage II,Targeted Therapy,2.5,Deceased
+931,73,Female,Mumbai,Tata Memorial Hospital,Oral Cancer,Stage III,Chemo + Radiation,42.2,Deceased
+932,62,Male,Thiruvananthapuram,Regional Cancer Centre,Lung Cancer,Stage II,Surgery,7.1,Deceased
+933,38,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Breast Cancer,Stage I,Surgery,29.3,Deceased
+934,42,Female,Chandigarh,PGIMER,Colorectal Cancer,Stage II,Targeted Therapy,53.2,Alive
+935,48,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Oral Cancer,Stage IV,Chemotherapy,9,Deceased
+936,55,Male,New Delhi,AIIMS,Oral Cancer,Stage I,Surgery,23.1,Deceased
+937,60,Female,Chennai,Adyar Cancer Institute,Breast Cancer,Stage III,Surgery,51,Alive
+938,50,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Lung Cancer,Stage IV,Chemotherapy,7.6,Deceased
+939,49,Female,New Delhi,Rajiv Gandhi Cancer Institute,Cervical Cancer,Stage III,Surgery,23.8,Deceased
+940,65,Female,Ahmedabad,Gujarat Cancer Research Institute,Stomach Cancer,Stage I,Radiation,14.4,Deceased
+941,45,Female,New Delhi,Rajiv Gandhi Cancer Institute,Leukemia,Stage II,Chemotherapy,5.8,Deceased
+942,57,Male,Hyderabad,Basavatarakam Indo American Cancer Hospital,Lung Cancer,Stage III,Radiation,18.6,Deceased
+943,57,Male,New Delhi,AIIMS,Oral Cancer,Stage IV,Targeted Therapy,8.2,Deceased
+944,78,Female,Chennai,Adyar Cancer Institute,Ovarian Cancer,Stage III,Chemotherapy,52.4,Alive
+945,54,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Lung Cancer,Stage II,Targeted Therapy,18.2,Alive
+946,58,Female,Kolkata,Tata Medical Center,Oral Cancer,Stage III,Targeted Therapy,52.5,Alive
+947,56,Male,Ahmedabad,Gujarat Cancer Research Institute,Oral Cancer,Stage IV,Palliative Care,27.9,Deceased
+948,54,Female,Ahmedabad,Gujarat Cancer Research Institute,Breast Cancer,Stage III,Chemo + Radiation,9,Deceased
+949,61,Male,New Delhi,AIIMS,Oral Cancer,Stage III,Palliative Care,6.6,Deceased
+950,75,Male,New Delhi,Rajiv Gandhi Cancer Institute,Stomach Cancer,Stage I,Surgery,32,Deceased
+951,50,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Lung Cancer,Stage I,Radiation,31.2,Deceased
+952,38,Female,Kolkata,Tata Medical Center,Breast Cancer,Stage II,Chemotherapy,5.4,Deceased
+953,52,Female,Chennai,Adyar Cancer Institute,Lung Cancer,Stage III,Radiation,20.5,Deceased
+954,64,Female,Mumbai,Tata Memorial Hospital,Ovarian Cancer,Stage I,Radiation,7.5,Deceased
+955,74,Male,New Delhi,AIIMS,Lung Cancer,Stage IV,Palliative Care,22.6,Deceased
+956,29,Female,New Delhi,AIIMS,Leukemia,Stage IV,Targeted Therapy,31.2,Deceased
+957,57,Female,Hyderabad,Basavatarakam Indo American Cancer Hospital,Stomach Cancer,Stage I,Surgery,34.2,Deceased
+958,36,Female,Chandigarh,PGIMER,Breast Cancer,Stage III,Chemotherapy,4.9,Deceased
+959,52,Female,New Delhi,AIIMS,Breast Cancer,Stage I,Surgery,10.9,Deceased
+960,14,Male,New Delhi,AIIMS,Leukemia,Stage II,Surgery,25.8,Deceased
+961,56,Female,Chennai,Adyar Cancer Institute,Cervical Cancer,Stage III,Radiation,42.5,Alive
+962,63,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Stomach Cancer,Stage I,Surgery,13.5,Alive
+963,53,Female,Thiruvananthapuram,Regional Cancer Centre,Cervical Cancer,Stage IV,Palliative Care,16,Deceased
+964,72,Male,New Delhi,Rajiv Gandhi Cancer Institute,Lung Cancer,Stage I,Surgery,4.7,Deceased
+965,28,Female,Ahmedabad,Gujarat Cancer Research Institute,Breast Cancer,Stage III,Surgery,12.9,Alive
+966,64,Female,Mumbai,Tata Memorial Hospital,Breast Cancer,Stage IV,Palliative Care,3.5,Deceased
+967,50,Female,Mumbai,Tata Memorial Hospital,Breast Cancer,Stage III,Chemo + Radiation,21.9,Deceased
+968,45,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Oral Cancer,Stage IV,Chemotherapy,14.2,Deceased
+969,60,Female,New Delhi,AIIMS,Breast Cancer,Stage III,Chemotherapy,4.6,Deceased
+970,60,Female,Chandigarh,PGIMER,Cervical Cancer,Stage II,Chemo + Radiation,51.6,Alive
+971,61,Female,Chennai,Adyar Cancer Institute,Breast Cancer,Stage II,Targeted Therapy,9.3,Alive
+972,36,Female,Ahmedabad,Gujarat Cancer Research Institute,Breast Cancer,Stage III,Surgery + Chemotherapy,6.3,Deceased
+973,43,Female,New Delhi,AIIMS,Cervical Cancer,Stage IV,Targeted Therapy,37,Deceased
+974,57,Male,New Delhi,AIIMS,Lung Cancer,Stage II,Surgery,2.9,Deceased
+975,54,Female,Ahmedabad,Gujarat Cancer Research Institute,Ovarian Cancer,Stage I,Surgery,27.4,Alive
+976,81,Male,Kolkata,Tata Medical Center,Prostate Cancer,Stage I,Surgery,40.7,Alive
+977,64,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Oral Cancer,Stage III,Targeted Therapy,21.2,Deceased
+978,64,Female,Kolkata,Tata Medical Center,Oral Cancer,Stage IV,Palliative Care,7.3,Deceased
+979,34,Female,Kolkata,Tata Medical Center,Breast Cancer,Stage III,Chemotherapy,6.1,Alive
+980,49,Female,Ahmedabad,Gujarat Cancer Research Institute,Breast Cancer,Stage I,Surgery,51.1,Alive
+981,61,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Oral Cancer,Stage III,Palliative Care,6.2,Deceased
+982,50,Female,Thiruvananthapuram,Regional Cancer Centre,Cervical Cancer,Stage III,Chemo + Radiation,18.3,Deceased
+983,37,Female,Mumbai,Tata Memorial Hospital,Cervical Cancer,Stage III,Targeted Therapy,11.8,Deceased
+984,62,Female,New Delhi,AIIMS,Breast Cancer,Stage II,Surgery,30.7,Alive
+985,69,Male,New Delhi,Rajiv Gandhi Cancer Institute,Colorectal Cancer,Stage IV,Palliative Care,24.7,Deceased
+986,48,Male,Kolkata,Tata Medical Center,Colorectal Cancer,Stage II,Surgery,13.7,Deceased
+987,34,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Breast Cancer,Stage II,Chemotherapy,5.5,Alive
+988,40,Female,Thiruvananthapuram,Regional Cancer Centre,Breast Cancer,Stage II,Targeted Therapy,48.7,Deceased
+989,57,Male,New Delhi,AIIMS,Oral Cancer,Stage III,Surgery + Chemotherapy,49.9,Alive
+990,88,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Oral Cancer,Stage IV,Targeted Therapy,24.1,Deceased
+991,50,Male,Hyderabad,Basavatarakam Indo American Cancer Hospital,Oral Cancer,Stage II,Radiation,13.8,Deceased
+992,39,Female,Mumbai,Tata Memorial Hospital,Breast Cancer,Stage III,Chemotherapy,10.6,Deceased
+993,49,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Prostate Cancer,Stage II,Targeted Therapy,34.7,Alive
+994,66,Female,Mumbai,Tata Memorial Hospital,Cervical Cancer,Stage III,Palliative Care,22,Deceased
+995,64,Male,New Delhi,Rajiv Gandhi Cancer Institute,Prostate Cancer,Stage III,Surgery,36.4,Alive
+996,34,Female,Bengaluru,Kidwai Memorial Institute of Oncology,Breast Cancer,Stage III,Palliative Care,44,Deceased
+997,38,Female,Chennai,Adyar Cancer Institute,Breast Cancer,Stage III,Surgery,50,Alive
+998,53,Male,Chennai,Adyar Cancer Institute,Lung Cancer,Stage II,Surgery,9.3,Deceased
+999,50,Female,Kolkata,Tata Medical Center,Breast Cancer,Stage III,Radiation,5.7,Deceased
+1000,50,Male,Bengaluru,Kidwai Memorial Institute of Oncology,Stomach Cancer,Stage IV,Palliative Care,7.2,Deceased
+1001,52,Female,Chandigarh,PGIMER,Oral Cancer,Stage II,Targeted Therapy,9.3,Alive
